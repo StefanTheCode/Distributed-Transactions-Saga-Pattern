@@ -25,3 +25,4 @@ C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transaction
 C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService\obj\Debug\net5.0\ref\NotificationService.dll
 C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService\obj\Debug\net5.0\NotificationService.pdb
 C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService\obj\Debug\net5.0\NotificationService.genruntimeconfig.cache
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService\obj\Debug\net5.0\NotificationService.csproj.AssemblyReference.cache

@@ -1,0 +1,12 @@
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Application\bin\Debug\net5.0\CarService.Application.deps.json
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Application\bin\Debug\net5.0\CarService.Application.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Application\bin\Debug\net5.0\ref\CarService.Application.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Application\bin\Debug\net5.0\CarService.Application.pdb
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Application\obj\Debug\net5.0\CarService.Application.csproj.AssemblyReference.cache
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Application\obj\Debug\net5.0\CarService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Application\obj\Debug\net5.0\CarService.Application.AssemblyInfoInputs.cache
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Application\obj\Debug\net5.0\CarService.Application.AssemblyInfo.cs
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Application\obj\Debug\net5.0\CarService.Application.csproj.CoreCompileInputs.cache
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Application\obj\Debug\net5.0\CarService.Application.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Application\obj\Debug\net5.0\ref\CarService.Application.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Application\obj\Debug\net5.0\CarService.Application.pdb

@@ -1,0 +1,11 @@
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Consumer\bin\Debug\net5.0\HotelService.Consumer.deps.json
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Consumer\bin\Debug\net5.0\HotelService.Consumer.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Consumer\bin\Debug\net5.0\ref\HotelService.Consumer.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Consumer\bin\Debug\net5.0\HotelService.Consumer.pdb
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Consumer\obj\Debug\net5.0\HotelService.Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Consumer\obj\Debug\net5.0\HotelService.Consumer.AssemblyInfoInputs.cache
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Consumer\obj\Debug\net5.0\HotelService.Consumer.AssemblyInfo.cs
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Consumer\obj\Debug\net5.0\HotelService.Consumer.csproj.CoreCompileInputs.cache
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Consumer\obj\Debug\net5.0\HotelService.Consumer.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Consumer\obj\Debug\net5.0\ref\HotelService.Consumer.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Consumer\obj\Debug\net5.0\HotelService.Consumer.pdb

@@ -1,0 +1,11 @@
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\bin\Debug\net5.0\HotelService.Application.deps.json
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\bin\Debug\net5.0\HotelService.Application.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\bin\Debug\net5.0\ref\HotelService.Application.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\bin\Debug\net5.0\HotelService.Application.pdb
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\obj\Debug\net5.0\HotelService.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\obj\Debug\net5.0\HotelService.Application.AssemblyInfoInputs.cache
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\obj\Debug\net5.0\HotelService.Application.AssemblyInfo.cs
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\obj\Debug\net5.0\HotelService.Application.csproj.CoreCompileInputs.cache
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\obj\Debug\net5.0\HotelService.Application.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\obj\Debug\net5.0\ref\HotelService.Application.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\obj\Debug\net5.0\HotelService.Application.pdb

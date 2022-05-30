@@ -1,0 +1,12 @@
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Infrastructure.deps.json
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Infrastructure.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\ref\FlightService.Infrastructure.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Infrastructure.pdb
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.AssemblyInfo.cs
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\ref\FlightService.Infrastructure.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.pdb

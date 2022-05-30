@@ -11,7 +11,6 @@ C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transaction
 C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService\obj\Debug\net5.0\CarService.csproj.AssemblyReference.cache
 C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService\obj\Debug\net5.0\CarService.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService\obj\Debug\net5.0\CarService.AssemblyInfoInputs.cache
 C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService\obj\Debug\net5.0\CarService.AssemblyInfo.cs

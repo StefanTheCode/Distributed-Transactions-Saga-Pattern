@@ -1,0 +1,11 @@
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\HotelService.Infrastructure.deps.json
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\HotelService.Infrastructure.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\ref\HotelService.Infrastructure.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\HotelService.Infrastructure.pdb
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.AssemblyInfo.cs
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\ref\HotelService.Infrastructure.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.pdb

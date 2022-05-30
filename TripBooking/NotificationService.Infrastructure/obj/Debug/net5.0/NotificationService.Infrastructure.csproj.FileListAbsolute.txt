@@ -1,0 +1,12 @@
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Infrastructure\bin\Debug\net5.0\NotificationService.Infrastructure.deps.json
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Infrastructure\bin\Debug\net5.0\NotificationService.Infrastructure.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Infrastructure\bin\Debug\net5.0\ref\NotificationService.Infrastructure.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Infrastructure\bin\Debug\net5.0\NotificationService.Infrastructure.pdb
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Infrastructure\obj\Debug\net5.0\NotificationService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Infrastructure\obj\Debug\net5.0\NotificationService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Infrastructure\obj\Debug\net5.0\NotificationService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Infrastructure\obj\Debug\net5.0\NotificationService.Infrastructure.AssemblyInfo.cs
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Infrastructure\obj\Debug\net5.0\NotificationService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Infrastructure\obj\Debug\net5.0\NotificationService.Infrastructure.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Infrastructure\obj\Debug\net5.0\ref\NotificationService.Infrastructure.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Infrastructure\obj\Debug\net5.0\NotificationService.Infrastructure.pdb
