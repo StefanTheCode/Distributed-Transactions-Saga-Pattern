@@ -1,0 +1,23 @@
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\bin\Debug\net5.0\Saga.Core.deps.json
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\bin\Debug\net5.0\Saga.Core.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\bin\Debug\net5.0\ref\Saga.Core.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\bin\Debug\net5.0\Saga.Core.pdb
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\Saga.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\Saga.Core.AssemblyInfoInputs.cache
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\Saga.Core.AssemblyInfo.cs
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\Saga.Core.csproj.CoreCompileInputs.cache
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\Saga.Core.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\ref\Saga.Core.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\Saga.Core.pdb
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\bin\Debug\net5.0\Saga.Core.deps.json
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\bin\Debug\net5.0\Saga.Core.dll
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\bin\Debug\net5.0\Saga.Core.pdb
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\Saga.Core.csproj.AssemblyReference.cache
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\Saga.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\Saga.Core.AssemblyInfoInputs.cache
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\Saga.Core.AssemblyInfo.cs
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\Saga.Core.csproj.CoreCompileInputs.cache
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\Saga.Core.dll
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\refint\Saga.Core.dll
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\Saga.Core.pdb
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\ref\Saga.Core.dll

@@ -1,0 +1,23 @@
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\bin\Debug\net5.0\CarService.Consumer.deps.json
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\bin\Debug\net5.0\CarService.Consumer.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\bin\Debug\net5.0\ref\CarService.Consumer.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\bin\Debug\net5.0\CarService.Consumer.pdb
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\obj\Debug\net5.0\CarService.Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\obj\Debug\net5.0\CarService.Consumer.AssemblyInfoInputs.cache
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\obj\Debug\net5.0\CarService.Consumer.AssemblyInfo.cs
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\obj\Debug\net5.0\CarService.Consumer.csproj.CoreCompileInputs.cache
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\obj\Debug\net5.0\CarService.Consumer.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\obj\Debug\net5.0\ref\CarService.Consumer.dll
+C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\obj\Debug\net5.0\CarService.Consumer.pdb
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\bin\Debug\net5.0\CarService.Consumer.deps.json
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\bin\Debug\net5.0\CarService.Consumer.dll
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\bin\Debug\net5.0\CarService.Consumer.pdb
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\obj\Debug\net5.0\CarService.Consumer.csproj.AssemblyReference.cache
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\obj\Debug\net5.0\CarService.Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\obj\Debug\net5.0\CarService.Consumer.AssemblyInfoInputs.cache
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\obj\Debug\net5.0\CarService.Consumer.AssemblyInfo.cs
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\obj\Debug\net5.0\CarService.Consumer.csproj.CoreCompileInputs.cache
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\obj\Debug\net5.0\CarService.Consumer.dll
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\obj\Debug\net5.0\refint\CarService.Consumer.dll
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\obj\Debug\net5.0\CarService.Consumer.pdb
+C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Consumer\obj\Debug\net5.0\ref\CarService.Consumer.dll
