@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "/ROZrg+CirewlBVkwiC9h3DVwYXH4HFIHxG0D9lVOmtdZoTX5WQXx/XZWZL/UpoCe1KWWqGXr4SxGBCxqBziew==",
+  "dgSpecHash": "jhDMz3hp2Mro2YX2Dy0ti232FRRIufyiK829t2opR5hRMiiSWMnAGMLHVFt04ReWGTh3OY7hPwCQ1cQ0WZez/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Djole - EXLRT\\Desktop\\Personal\\Faks\\DeliveryApp\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService\\HotelService.csproj",
+  "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Projects\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService\\HotelService.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Djole - EXLRT\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
-    "C:\\Users\\Djole - EXLRT\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
-    "C:\\Users\\Djole - EXLRT\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
-    "C:\\Users\\Djole - EXLRT\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
-    "C:\\Users\\Djole - EXLRT\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
-    "C:\\Users\\Djole - EXLRT\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    "C:\\Users\\Stefan Djokic\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Stefan Djokic\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Stefan Djokic\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Stefan Djokic\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Stefan Djokic\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Stefan Djokic\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
   ],
   "logs": []
 }

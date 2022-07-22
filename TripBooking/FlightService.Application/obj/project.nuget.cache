@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xAiNVUNKhW1VjSsJK3/BpN8Adl7NqcOcueAleNFhqbZSZdXruNmYLJ/AGonpGqNHmilb8JU7u+PwOULK2g9sog==",
+  "dgSpecHash": "EZwur9PP+4FXPbbU6NQOuJ7z05q/GJf1AcUTPxhaMijU43SbU0wMNr7vDl3QyDTMMIHOGtavdccq23l/ETb29w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Djole - EXLRT\\Desktop\\Personal\\Faks\\DeliveryApp\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Application\\FlightService.Application.csproj",
+  "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Projects\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Application\\FlightService.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

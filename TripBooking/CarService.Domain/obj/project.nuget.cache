@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AZnU5PkCEUbNbrduIHfwUGJ8NlxZ2S9tBM5L932T9O78Ye2nCSnU9jhJ2JwJlfEvt1LU5uoVl/iAO3cW5PzznQ==",
+  "dgSpecHash": "HN+sbHH5RhS78aTw5FfnGx4KcTjsgpKTRT8CmfDhHbB6939/p+0RqoD/LgE1abZmC7neMEAz/qG6+WwVTsey9w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Djole - EXLRT\\Desktop\\Personal\\Faks\\DeliveryApp\\Distributed-Transactions-Saga-Pattern\\TripBooking\\CarService.Domain\\CarService.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Projects\\Distributed-Transactions-Saga-Pattern\\TripBooking\\CarService.Domain\\CarService.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -193,23 +193,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Djole - EXLRT\\.nuget\\packages\\": {},
+    "C:\\Users\\Stefan Djokic\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Djole - EXLRT\\Desktop\\Personal\\Faks\\DeliveryApp\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService\\NotificationService.csproj",
+      "projectUniqueName": "C:\\Users\\Stefan Djokic\\Desktop\\Projects\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService\\NotificationService.csproj",
       "projectName": "NotificationService",
-      "projectPath": "C:\\Users\\Djole - EXLRT\\Desktop\\Personal\\Faks\\DeliveryApp\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService\\NotificationService.csproj",
-      "packagesPath": "C:\\Users\\Djole - EXLRT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Djole - EXLRT\\Desktop\\Personal\\Faks\\DeliveryApp\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService\\obj\\",
+      "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Projects\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService\\NotificationService.csproj",
+      "packagesPath": "C:\\Users\\Stefan Djokic\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Stefan Djokic\\Desktop\\Projects\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Djole - EXLRT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Stefan Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -218,7 +218,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\hgk\\Paketi\\Paketi": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -260,7 +259,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

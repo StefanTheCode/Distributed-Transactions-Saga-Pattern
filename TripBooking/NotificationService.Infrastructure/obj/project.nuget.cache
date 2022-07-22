@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MlApPVl/DbzHGa+GYS7aM/OKPfVbrF9sV5BTaYo/JyH6+KcMj0wTGF3kMJlTtwnz44nlrxweA/ESZJRtDmxl/A==",
+  "dgSpecHash": "LqIesLcHEcQaFx0m0JxoJ6tY5XeOmHOuv7GjuzSnPg+oDYhjn7O92bLrsj8hqlWcr0+9kxRco+VA03yNgQw67A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Djole - EXLRT\\Desktop\\Personal\\Faks\\DeliveryApp\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Projects\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
