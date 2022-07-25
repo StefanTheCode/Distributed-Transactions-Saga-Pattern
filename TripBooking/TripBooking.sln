@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelService", "HotelService\HotelService.csproj", "{49B9D08D-2913-4F3F-9D03-ABBAA8C7C557}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelService", "HotelService\HotelService.csproj", "{49B9D08D-2913-4F3F-9D03-ABBAA8C7C557}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarService", "CarService\CarService.csproj", "{EB8591CD-3624-4F6C-8E14-18517AE76871}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarService", "CarService\CarService.csproj", "{EB8591CD-3624-4F6C-8E14-18517AE76871}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightService", "FlightService\FlightService.csproj", "{811CFBCC-FFE5-436C-805E-29CE595413D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightService", "FlightService\FlightService.csproj", "{811CFBCC-FFE5-436C-805E-29CE595413D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "NotificationService\NotificationService.csproj", "{423883EA-9FA1-4F4E-9C5B-24A8B631591D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService", "NotificationService\NotificationService.csproj", "{423883EA-9FA1-4F4E-9C5B-24A8B631591D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D78BEB9A-32C5-4B00-9578-9CCCB45A5CA4}"
 EndProject
@@ -21,43 +21,43 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Car", "Car", "{767EE16F-1C4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Notification", "Notification", "{A910DCC9-F10C-47F7-9CE8-E46C1A0A75B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelService.Consumer", "HotelService.Consumer\HotelService.Consumer.csproj", "{70AD61DA-2FA2-4561-9AB4-AEEE0075278A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelService.Consumer", "HotelService.Consumer\HotelService.Consumer.csproj", "{70AD61DA-2FA2-4561-9AB4-AEEE0075278A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelService.Infrastructure", "HotelService.Infrastructure\HotelService.Infrastructure.csproj", "{CB65357F-6B92-4F87-8B8C-637B7F91D356}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelService.Infrastructure", "HotelService.Infrastructure\HotelService.Infrastructure.csproj", "{CB65357F-6B92-4F87-8B8C-637B7F91D356}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelService.Domain", "HotelService.Domain\HotelService.Domain.csproj", "{787FC955-34FC-4E00-B6B3-7485BE992075}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelService.Application", "HotelService.Application\HotelService.Application.csproj", "{8C8A91BC-4F71-4859-9446-D47E195ECA50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelService.Application", "HotelService.Application\HotelService.Application.csproj", "{8C8A91BC-4F71-4859-9446-D47E195ECA50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightService.Domain", "FlightService.Domain\FlightService.Domain.csproj", "{912076F5-FFD5-41C1-824D-03954E8D0192}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightService.Domain", "FlightService.Domain\FlightService.Domain.csproj", "{912076F5-FFD5-41C1-824D-03954E8D0192}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightService.Application", "FlightService.Application\FlightService.Application.csproj", "{E4F81B80-31A9-4747-B8D1-DBB080ABF451}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightService.Application", "FlightService.Application\FlightService.Application.csproj", "{E4F81B80-31A9-4747-B8D1-DBB080ABF451}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightService.Infrastructure", "FlightService.Infrastructure\FlightService.Infrastructure.csproj", "{351C7302-D321-4FCE-B6F7-8DA37CAA4A44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightService.Infrastructure", "FlightService.Infrastructure\FlightService.Infrastructure.csproj", "{351C7302-D321-4FCE-B6F7-8DA37CAA4A44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlightService.Consumer", "FlightService.Consumer\FlightService.Consumer.csproj", "{DF4DE33E-967B-47BE-B38C-787983D99396}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightService.Consumer", "FlightService.Consumer\FlightService.Consumer.csproj", "{DF4DE33E-967B-47BE-B38C-787983D99396}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarService.Application", "CarService.Application\CarService.Application.csproj", "{0EBA23DF-827F-48C2-BA25-4D01C4C2ADDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarService.Domain", "CarService.Domain\CarService.Domain.csproj", "{6CF0A1DD-B5C8-4415-9B55-32DDA60DAC0A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarService.Infrastructure", "CarService.Infrastructure\CarService.Infrastructure.csproj", "{55B92CB0-0534-4E19-863E-A7B81696B089}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarService.Application", "CarService.Application\CarService.Application.csproj", "{0EBA23DF-827F-48C2-BA25-4D01C4C2ADDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarService.Consumer", "CarService.Consumer\CarService.Consumer.csproj", "{8C94C08F-0A41-4F71-9EE3-ED66EF0FAA98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarService.Infrastructure", "CarService.Infrastructure\CarService.Infrastructure.csproj", "{55B92CB0-0534-4E19-863E-A7B81696B089}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService.Application", "NotificationService.Application\NotificationService.Application.csproj", "{0063C74C-236C-42EC-A4F8-86581660FD03}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarService.Consumer", "CarService.Consumer\CarService.Consumer.csproj", "{8C94C08F-0A41-4F71-9EE3-ED66EF0FAA98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService.Infrastructure", "NotificationService.Infrastructure\NotificationService.Infrastructure.csproj", "{C5B53FDE-191D-41EA-AFB8-16760FE21C5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Domain", "NotificationService.Domain\NotificationService.Domain.csproj", "{BF9D4C2C-4552-44C8-AE7F-EE74CC6B5F93}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Application", "NotificationService.Application\NotificationService.Application.csproj", "{0063C74C-236C-42EC-A4F8-86581660FD03}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Infrastructure", "NotificationService.Infrastructure\NotificationService.Infrastructure.csproj", "{C5B53FDE-191D-41EA-AFB8-16760FE21C5A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService.Consumer", "NotificationService.Consumer\NotificationService.Consumer.csproj", "{CC48A964-941A-4348-A958-B1C52D5A5497}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService.Consumer", "NotificationService.Consumer\NotificationService.Consumer.csproj", "{CC48A964-941A-4348-A958-B1C52D5A5497}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Saga", "Saga", "{7A65FFB1-3343-4630-A625-B33B9AC7B4A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.Core", "Saga.Core\Saga.Core.csproj", "{1E6FCC0C-A49F-4E1B-8217-7A2DA92D4C6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saga.Core", "Saga.Core\Saga.Core.csproj", "{1E6FCC0C-A49F-4E1B-8217-7A2DA92D4C6D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga.Shared", "Saga.Shared\Saga.Shared.csproj", "{150B137C-2DB1-4050-B778-2D116BAFF058}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saga.Shared", "Saga.Shared\Saga.Shared.csproj", "{150B137C-2DB1-4050-B778-2D116BAFF058}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarService.Domain", "CarService.Domain\CarService.Domain.csproj", "{62F4B1FC-9540-491B-9CD8-1B45782E46C1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelService.Domain", "HotelService.Domain\HotelService.Domain.csproj", "{66D11892-6F78-4975-8A4D-09663F3CEE88}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService.Domain", "NotificationService.Domain\NotificationService.Domain.csproj", "{E9AFB998-2F59-449B-8C0B-C99BDD37B1DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,10 +89,6 @@ Global
 		{CB65357F-6B92-4F87-8B8C-637B7F91D356}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB65357F-6B92-4F87-8B8C-637B7F91D356}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB65357F-6B92-4F87-8B8C-637B7F91D356}.Release|Any CPU.Build.0 = Release|Any CPU
-		{787FC955-34FC-4E00-B6B3-7485BE992075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{787FC955-34FC-4E00-B6B3-7485BE992075}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{787FC955-34FC-4E00-B6B3-7485BE992075}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{787FC955-34FC-4E00-B6B3-7485BE992075}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8C8A91BC-4F71-4859-9446-D47E195ECA50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8C8A91BC-4F71-4859-9446-D47E195ECA50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C8A91BC-4F71-4859-9446-D47E195ECA50}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -113,10 +109,6 @@ Global
 		{DF4DE33E-967B-47BE-B38C-787983D99396}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF4DE33E-967B-47BE-B38C-787983D99396}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF4DE33E-967B-47BE-B38C-787983D99396}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6CF0A1DD-B5C8-4415-9B55-32DDA60DAC0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6CF0A1DD-B5C8-4415-9B55-32DDA60DAC0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6CF0A1DD-B5C8-4415-9B55-32DDA60DAC0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6CF0A1DD-B5C8-4415-9B55-32DDA60DAC0A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0EBA23DF-827F-48C2-BA25-4D01C4C2ADDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0EBA23DF-827F-48C2-BA25-4D01C4C2ADDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EBA23DF-827F-48C2-BA25-4D01C4C2ADDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -129,10 +121,6 @@ Global
 		{8C94C08F-0A41-4F71-9EE3-ED66EF0FAA98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C94C08F-0A41-4F71-9EE3-ED66EF0FAA98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C94C08F-0A41-4F71-9EE3-ED66EF0FAA98}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BF9D4C2C-4552-44C8-AE7F-EE74CC6B5F93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BF9D4C2C-4552-44C8-AE7F-EE74CC6B5F93}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BF9D4C2C-4552-44C8-AE7F-EE74CC6B5F93}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BF9D4C2C-4552-44C8-AE7F-EE74CC6B5F93}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0063C74C-236C-42EC-A4F8-86581660FD03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0063C74C-236C-42EC-A4F8-86581660FD03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0063C74C-236C-42EC-A4F8-86581660FD03}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -153,6 +141,18 @@ Global
 		{150B137C-2DB1-4050-B778-2D116BAFF058}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{150B137C-2DB1-4050-B778-2D116BAFF058}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{150B137C-2DB1-4050-B778-2D116BAFF058}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62F4B1FC-9540-491B-9CD8-1B45782E46C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62F4B1FC-9540-491B-9CD8-1B45782E46C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62F4B1FC-9540-491B-9CD8-1B45782E46C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62F4B1FC-9540-491B-9CD8-1B45782E46C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D11892-6F78-4975-8A4D-09663F3CEE88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D11892-6F78-4975-8A4D-09663F3CEE88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D11892-6F78-4975-8A4D-09663F3CEE88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D11892-6F78-4975-8A4D-09663F3CEE88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9AFB998-2F59-449B-8C0B-C99BDD37B1DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9AFB998-2F59-449B-8C0B-C99BDD37B1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9AFB998-2F59-449B-8C0B-C99BDD37B1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9AFB998-2F59-449B-8C0B-C99BDD37B1DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -168,23 +168,23 @@ Global
 		{A910DCC9-F10C-47F7-9CE8-E46C1A0A75B1} = {D78BEB9A-32C5-4B00-9578-9CCCB45A5CA4}
 		{70AD61DA-2FA2-4561-9AB4-AEEE0075278A} = {0D6FD7BA-0704-4CDF-8C03-E3463676C96F}
 		{CB65357F-6B92-4F87-8B8C-637B7F91D356} = {0D6FD7BA-0704-4CDF-8C03-E3463676C96F}
-		{787FC955-34FC-4E00-B6B3-7485BE992075} = {0D6FD7BA-0704-4CDF-8C03-E3463676C96F}
 		{8C8A91BC-4F71-4859-9446-D47E195ECA50} = {0D6FD7BA-0704-4CDF-8C03-E3463676C96F}
 		{912076F5-FFD5-41C1-824D-03954E8D0192} = {FFD82087-4A7B-4102-8A65-D810F2D816F8}
 		{E4F81B80-31A9-4747-B8D1-DBB080ABF451} = {FFD82087-4A7B-4102-8A65-D810F2D816F8}
 		{351C7302-D321-4FCE-B6F7-8DA37CAA4A44} = {FFD82087-4A7B-4102-8A65-D810F2D816F8}
 		{DF4DE33E-967B-47BE-B38C-787983D99396} = {FFD82087-4A7B-4102-8A65-D810F2D816F8}
-		{6CF0A1DD-B5C8-4415-9B55-32DDA60DAC0A} = {767EE16F-1C49-4451-A786-78985D133827}
 		{0EBA23DF-827F-48C2-BA25-4D01C4C2ADDA} = {767EE16F-1C49-4451-A786-78985D133827}
 		{55B92CB0-0534-4E19-863E-A7B81696B089} = {767EE16F-1C49-4451-A786-78985D133827}
 		{8C94C08F-0A41-4F71-9EE3-ED66EF0FAA98} = {767EE16F-1C49-4451-A786-78985D133827}
-		{BF9D4C2C-4552-44C8-AE7F-EE74CC6B5F93} = {A910DCC9-F10C-47F7-9CE8-E46C1A0A75B1}
 		{0063C74C-236C-42EC-A4F8-86581660FD03} = {A910DCC9-F10C-47F7-9CE8-E46C1A0A75B1}
 		{C5B53FDE-191D-41EA-AFB8-16760FE21C5A} = {A910DCC9-F10C-47F7-9CE8-E46C1A0A75B1}
 		{CC48A964-941A-4348-A958-B1C52D5A5497} = {A910DCC9-F10C-47F7-9CE8-E46C1A0A75B1}
 		{7A65FFB1-3343-4630-A625-B33B9AC7B4A8} = {D78BEB9A-32C5-4B00-9578-9CCCB45A5CA4}
 		{1E6FCC0C-A49F-4E1B-8217-7A2DA92D4C6D} = {7A65FFB1-3343-4630-A625-B33B9AC7B4A8}
 		{150B137C-2DB1-4050-B778-2D116BAFF058} = {7A65FFB1-3343-4630-A625-B33B9AC7B4A8}
+		{62F4B1FC-9540-491B-9CD8-1B45782E46C1} = {767EE16F-1C49-4451-A786-78985D133827}
+		{66D11892-6F78-4975-8A4D-09663F3CEE88} = {0D6FD7BA-0704-4CDF-8C03-E3463676C96F}
+		{E9AFB998-2F59-449B-8C0B-C99BDD37B1DD} = {A910DCC9-F10C-47F7-9CE8-E46C1A0A75B1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {99D3C07F-AA98-4DC2-9600-0013C5BF2AF0}

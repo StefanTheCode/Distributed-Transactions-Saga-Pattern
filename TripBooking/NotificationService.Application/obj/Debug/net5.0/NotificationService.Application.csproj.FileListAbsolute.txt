@@ -1,29 +1,3 @@
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\bin\Debug\net5.0\NotificationService.Application.deps.json
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\bin\Debug\net5.0\NotificationService.Application.dll
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\bin\Debug\net5.0\ref\NotificationService.Application.dll
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\bin\Debug\net5.0\NotificationService.Application.pdb
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\obj\Debug\net5.0\NotificationService.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\obj\Debug\net5.0\NotificationService.Application.AssemblyInfoInputs.cache
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\obj\Debug\net5.0\NotificationService.Application.AssemblyInfo.cs
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\obj\Debug\net5.0\NotificationService.Application.csproj.CoreCompileInputs.cache
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\obj\Debug\net5.0\NotificationService.Application.dll
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\obj\Debug\net5.0\ref\NotificationService.Application.dll
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\obj\Debug\net5.0\NotificationService.Application.pdb
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\bin\Debug\net5.0\NotificationService.Application.deps.json
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\bin\Debug\net5.0\NotificationService.Application.dll
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\bin\Debug\net5.0\NotificationService.Application.pdb
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\obj\Debug\net5.0\NotificationService.Application.csproj.AssemblyReference.cache
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\obj\Debug\net5.0\NotificationService.Application.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\obj\Debug\net5.0\NotificationService.Application.AssemblyInfoInputs.cache
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\obj\Debug\net5.0\NotificationService.Application.AssemblyInfo.cs
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\obj\Debug\net5.0\NotificationService.Application.csproj.CoreCompileInputs.cache
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\obj\Debug\net5.0\NotificationService.Application.dll
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\obj\Debug\net5.0\refint\NotificationService.Application.dll
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\obj\Debug\net5.0\NotificationService.Application.pdb
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\obj\Debug\net5.0\ref\NotificationService.Application.dll
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\bin\Debug\net5.0\NotificationService.Domain.dll
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\bin\Debug\net5.0\NotificationService.Domain.pdb
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\obj\Debug\net5.0\NotificationService.Application.csproj.CopyComplete
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\bin\Debug\net5.0\NotificationService.Application.deps.json
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\bin\Debug\net5.0\NotificationService.Application.dll
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Application\bin\Debug\net5.0\NotificationService.Application.pdb

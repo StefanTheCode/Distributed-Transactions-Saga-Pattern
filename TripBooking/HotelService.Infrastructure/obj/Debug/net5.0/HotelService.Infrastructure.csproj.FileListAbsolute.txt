@@ -1,36 +1,3 @@
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\HotelService.Infrastructure.deps.json
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\HotelService.Infrastructure.dll
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\ref\HotelService.Infrastructure.dll
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\HotelService.Infrastructure.pdb
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.AssemblyInfoInputs.cache
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.AssemblyInfo.cs
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.csproj.CoreCompileInputs.cache
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.dll
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\ref\HotelService.Infrastructure.dll
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.pdb
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\HotelService.Infrastructure.deps.json
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\HotelService.Infrastructure.dll
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\HotelService.Infrastructure.pdb
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.csproj.AssemblyReference.cache
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.AssemblyInfoInputs.cache
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.AssemblyInfo.cs
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.csproj.CoreCompileInputs.cache
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.dll
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\refint\HotelService.Infrastructure.dll
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.pdb
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\ref\HotelService.Infrastructure.dll
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\HotelService.Infrastructure.runtimeconfig.json
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\HotelService.Infrastructure.runtimeconfig.dev.json
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\HotelService.Application.dll
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\HotelService.Domain.dll
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\Saga.Shared.dll
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\HotelService.Application.pdb
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\HotelService.Domain.pdb
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\Saga.Shared.pdb
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.csproj.CopyComplete
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.genruntimeconfig.cache
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\HotelService.Infrastructure.deps.json
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\HotelService.Infrastructure.runtimeconfig.json
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\HotelService.Infrastructure.runtimeconfig.dev.json

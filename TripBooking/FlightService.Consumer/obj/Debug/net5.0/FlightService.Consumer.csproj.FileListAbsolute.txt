@@ -1,24 +1,12 @@
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\bin\Debug\net5.0\FlightService.Consumer.deps.json
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\bin\Debug\net5.0\FlightService.Consumer.dll
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\bin\Debug\net5.0\ref\FlightService.Consumer.dll
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\bin\Debug\net5.0\FlightService.Consumer.pdb
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\FlightService.Consumer.csproj.AssemblyReference.cache
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\FlightService.Consumer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\FlightService.Consumer.AssemblyInfoInputs.cache
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\FlightService.Consumer.AssemblyInfo.cs
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\FlightService.Consumer.csproj.CoreCompileInputs.cache
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\FlightService.Consumer.dll
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\ref\FlightService.Consumer.dll
-C:\Users\Djole - EXLRT\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\FlightService.Consumer.pdb
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\bin\Debug\net5.0\FlightService.Consumer.deps.json
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\bin\Debug\net5.0\FlightService.Consumer.dll
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\bin\Debug\net5.0\FlightService.Consumer.pdb
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\FlightService.Consumer.csproj.AssemblyReference.cache
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\FlightService.Consumer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\FlightService.Consumer.AssemblyInfoInputs.cache
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\FlightService.Consumer.AssemblyInfo.cs
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\FlightService.Consumer.csproj.CoreCompileInputs.cache
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\FlightService.Consumer.dll
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\refint\FlightService.Consumer.dll
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\FlightService.Consumer.pdb
-C:\Users\Stefan Djokic\Desktop\Personal\Faks\DeliveryApp\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\ref\FlightService.Consumer.dll
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\bin\Debug\net5.0\FlightService.Consumer.deps.json
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\bin\Debug\net5.0\FlightService.Consumer.dll
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\bin\Debug\net5.0\FlightService.Consumer.pdb
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\FlightService.Consumer.csproj.AssemblyReference.cache
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\FlightService.Consumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\FlightService.Consumer.AssemblyInfoInputs.cache
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\FlightService.Consumer.AssemblyInfo.cs
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\FlightService.Consumer.csproj.CoreCompileInputs.cache
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\FlightService.Consumer.dll
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\refint\FlightService.Consumer.dll
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\FlightService.Consumer.pdb
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Consumer\obj\Debug\net5.0\ref\FlightService.Consumer.dll
