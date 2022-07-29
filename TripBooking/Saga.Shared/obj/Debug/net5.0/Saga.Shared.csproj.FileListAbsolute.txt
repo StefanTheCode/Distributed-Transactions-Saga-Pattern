@@ -10,3 +10,6 @@ C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\Tr
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\refint\Saga.Shared.dll
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.pdb
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\ref\Saga.Shared.dll
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\bin\Debug\net5.0\Saga.Core.dll
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\bin\Debug\net5.0\Saga.Core.pdb
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.csproj.CopyComplete

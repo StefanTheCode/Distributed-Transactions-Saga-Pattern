@@ -20,3 +20,5 @@ C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\Tr
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.pdb
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\HotelService.Infrastructure.genruntimeconfig.cache
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\obj\Debug\net5.0\ref\HotelService.Infrastructure.dll
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\Saga.Core.dll
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Infrastructure\bin\Debug\net5.0\Saga.Core.pdb

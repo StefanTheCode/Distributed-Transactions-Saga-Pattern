@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MassTransit" Version="8.0.5" />
     <PackageReference Include="MediatR" Version="10.0.1" />
     <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
@@ -23,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\HotelService.Infrastructure\HotelService.Infrastructure.csproj" />
+    <ProjectReference Include="..\Saga.Core\Saga.Core.csproj" />
   </ItemGroup>
 
 </Project>

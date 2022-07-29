@@ -1,4 +1,5 @@
 ﻿using HotelService.Domain.Common;
+using HotelService.Domain.Enums;
 using System;
 
 namespace HotelService.Domain.Entities
@@ -13,5 +14,6 @@ namespace HotelService.Domain.Entities
         public int AdultsNumber { get; set; }
         public int ChildrenNumber { get; set; }
         public int RoomNumber { get; set; }
+        public BookingStatus Status { get; set; }
     }
 }

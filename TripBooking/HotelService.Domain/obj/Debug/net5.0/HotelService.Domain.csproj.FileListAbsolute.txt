@@ -13,3 +13,5 @@ C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\Tr
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Domain\obj\Debug\net5.0\refint\HotelService.Domain.dll
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Domain\obj\Debug\net5.0\HotelService.Domain.pdb
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Domain\obj\Debug\net5.0\ref\HotelService.Domain.dll
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Domain\bin\Debug\net5.0\Saga.Core.dll
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Domain\bin\Debug\net5.0\Saga.Core.pdb

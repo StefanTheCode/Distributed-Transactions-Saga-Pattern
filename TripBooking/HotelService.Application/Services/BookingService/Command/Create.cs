@@ -1,7 +1,13 @@
 ﻿using HotelService.Application.Common;
 using HotelService.Application.Common.Models;
 using HotelService.Domain.Entities;
+using HotelService.Domain.Enums;
+using MassTransit;
 using MediatR;
+using Saga.Core.Concrete.Brokers;
+using Saga.Core.Constants;
+using Saga.Core.MessageBrokers.Concrete;
+using Saga.Shared.Consumers.Models.Sagas;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,10 +30,16 @@ namespace HotelService.Application.Services.BookingService.Command
     public class CreateHandler : IRequestHandler<Create, Result>
     {
         private readonly IHotelDbContext _dbContext;
+        private readonly ISendEndpoint _sendEndpoint;
+        private readonly MassTransitSettings _massTransitSettings;
 
-        public CreateHandler(IHotelDbContext dbContext)
+        public CreateHandler(IHotelDbContext dbContext, MassTransitSettings massTransitSettings)
         {
             _dbContext = dbContext;
+            _massTransitSettings = massTransitSettings;
+
+            var busInstance = BusConfiguration.Instance.ConfigureBus(_massTransitSettings);
+            _sendEndpoint = busInstance.GetSendEndpoint(new Uri($"{_massTransitSettings.Uri}/{SagaConstants.SAGAQUEUENAME}")).Result;
         }
 
         public async Task<Result> Handle(Create request, CancellationToken cancellationToken)
@@ -41,12 +53,22 @@ namespace HotelService.Application.Services.BookingService.Command
                 CheckOut = request.CheckOut,
                 ChildrenNumber = request.ChildrenNumber,
                 HotelName = request.HotelName,
-                Place = request.Place
+                Place = request.Place,
+                Status = BookingStatus.WaitingForFlight
             };
 
             await _dbContext.Bookings.AddAsync(booking);
 
-            //Publisher to publish Message
+            if (await _dbContext.SaveChangesAsync(cancellationToken) < 1) throw new Exception("Create Booking Failed!"); //publish event?
+
+            await _sendEndpoint.Send(new BookingSagaEventModel
+            {
+                BookingId = booking.Id,
+                CreatedDate = DateTime.Now,
+                Email = "UsersEmail",
+                From = booking.CheckIn,
+                To = booking.CheckOut
+            });
 
             return await _dbContext.SaveChangesAsync(cancellationToken) == 1 ?
                 new Result(true, Enumerable.Empty<string>()) :
