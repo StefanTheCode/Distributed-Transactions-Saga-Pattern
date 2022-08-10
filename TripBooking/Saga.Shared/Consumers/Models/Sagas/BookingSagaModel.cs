@@ -10,5 +10,7 @@ namespace Saga.Shared.Consumers.Models.Sagas
         public State CurrentState { get; set; }
 
         public int BookingId { get; set; }
+        public int FlightId { get; set; }
+        public int CarId { get; set; }
     }
 }

@@ -16,6 +16,7 @@ namespace Saga.Shared.Consumers.Models.Flight
 
         public Guid CorrelationId => _bookingSagaModel.CorrelationId;
         public int BookingId => _bookingSagaModel.BookingId;
+        public int FlightId => _bookingSagaModel.FlightId;
         public DateTime CreatedDate { get; set; }
     }
 }

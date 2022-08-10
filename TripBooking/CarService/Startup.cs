@@ -1,4 +1,4 @@
-using CarService.Application;
+using CarService.Application.Common;
 using CarService.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;

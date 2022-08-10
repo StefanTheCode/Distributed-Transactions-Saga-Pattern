@@ -1,4 +1,4 @@
-﻿using CarService.Application;
+﻿using CarService.Application.Common;
 using CarService.Domain.Common;
 using CarService.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
