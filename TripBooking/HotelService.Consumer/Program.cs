@@ -45,15 +45,30 @@ namespace HotelService.Consumer
                     var bus = BusConfiguration.Instance
                             .ConfigureBus(massTransitSettings, (cfg) =>
                             {
-                                cfg.ReceiveEndpoint(nameof(BookingCreatedEventModel), e =>
+                                cfg.ReceiveEndpoint(nameof(CreateHotelBookingEvent), e =>
                                 {
-                                    e.Consumer(() => new BookingCreatedConsumer());
+                                    e.Consumer(() => new CreateHotelBookingConsumer());
+                                });
+
+                                cfg.ReceiveEndpoint(nameof(HotelBookingCreatedEvent), e =>
+                                {
+                                    e.Consumer(() => new HotelBookingCreatedConsumer());
+                                });
+
+                                cfg.ReceiveEndpoint(nameof(HotelBookingFailedEventModel), e =>
+                                {
+                                    e.Consumer(() => new HotelBookingFailedConsumer());
+                                });
+
+                                cfg.ReceiveEndpoint(nameof(HotelBookingCompletedEventModel), e =>
+                                {
+                                    e.Consumer(() => new HotelBookingCompletedConsumer());
                                 });
                             });
 
                     bus.StartAsync();
 
-                    Console.WriteLine("Hotel Consumer Application started...");
+                    Console.WriteLine("Hotel Booking Consumer Application started...");
                     Console.ReadLine();
                 });
         }

@@ -39,7 +39,7 @@ namespace Booking.Saga.Consumer
 
                     services.AddSingleton(massTransitSettings);
 
-                    var bookingSaga = new BookingSagaState();
+                    var bookingSaga = new BookingProcessorStateMachine();
                     var repo = new InMemorySagaRepository<BookingSagaModel>();
 
                     var bus = BusConfiguration.Instance
@@ -53,7 +53,7 @@ namespace Booking.Saga.Consumer
 
                     bus.StartAsync();
 
-                    Console.WriteLine("Booking Saga started...");
+                    Console.WriteLine("Booking Saga State Machine Application started...");
                     Console.ReadLine();
                 });
         }

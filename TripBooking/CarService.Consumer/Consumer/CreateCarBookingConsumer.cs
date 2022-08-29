@@ -1,4 +1,5 @@
-﻿using CarService.Infrastructure.Persistence;
+﻿using CarService.Domain.Entities;
+using CarService.Infrastructure.Persistence;
 using MassTransit;
 using Saga.Shared.Consumers.Abstract;
 using System;
@@ -24,7 +25,28 @@ namespace CarService.Consumer.Consumer
             //Check dates - if not available publish Failed
             //Publish Created/Create Car Booking
 
-            Console.WriteLine("Let's create Car Booking for Booking ID - " + context.Message.BookingId + " Flight Id - " + context.Message.FlightId);
+            Console.WriteLine($"{DateTime.Now.ToString("HH:mm:ss.ffffff")}: Let's create Car Booking for Booking ID - " + context.Message.BookingId);
+
+            Rent rent = new Rent
+            {
+                Agency = "Agencija",
+                Created = DateTime.Now,
+                CreatedBy = "TEST",
+                DriverAge = 20,
+                DropOffDate = DateTime.Now.AddDays(5),
+                PickUpDate = DateTime.Now,
+                PickUpLocation = "Belgija"
+            };
+
+            _dbContext.Rents.Add(rent);
+            _dbContext.SaveChanges();
+
+            //await context.Publish<IHotelBookingCompletedEventModel>(new
+            //{
+            //    CreatedDate = DateTime.Now,
+            //    BookingId = context.Message.BookingId,
+            //    FlightId = context.Message.FlightId
+            //});
         }
     }
 }

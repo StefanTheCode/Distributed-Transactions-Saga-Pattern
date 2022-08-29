@@ -1,14 +1,18 @@
 ﻿using Saga.Shared.Consumers.Abstract;
 using Saga.Shared.Consumers.Models.Sagas;
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Saga.Shared.Consumers.Models.Booking
 {
-    public class BookingCreatedEventModel : IBookingCreatedEventModel
+    public class HotelBookingFailedEventModel : IHotelBookingFailedEventModel
     {
         private readonly BookingSagaModel _bookingSagaModel;
 
-        public BookingCreatedEventModel(BookingSagaModel bookingSagaModel)
+        public HotelBookingFailedEventModel(BookingSagaModel bookingSagaModel)
         {
             _bookingSagaModel = bookingSagaModel;
             CreatedDate = DateTime.Now;

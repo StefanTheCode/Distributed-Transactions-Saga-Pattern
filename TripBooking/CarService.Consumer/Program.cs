@@ -58,7 +58,7 @@ namespace CarService.Consumer
 
                     bus.StartAsync();
 
-                    Console.WriteLine("Listening Car Booking...");
+                    Console.WriteLine("Car Booking Consumer Application started...");
                     Console.ReadLine();
                 });
         }

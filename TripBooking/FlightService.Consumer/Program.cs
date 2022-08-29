@@ -51,11 +51,21 @@ namespace FlightService.Consumer
                                 {
                                     e.Consumer(() => new CreateFlightBookingConsumer(context));
                                 });
+
+                                cfg.ReceiveEndpoint(nameof(FlightBookingFailedEventModel), e =>
+                                {
+                                    e.Consumer(() => new FlightBookingFailedConsumer(context));
+                                });
+
+                                cfg.ReceiveEndpoint(nameof(FlightBookingCreatedEventModel), e =>
+                                {
+                                    e.Consumer(() => new FlightBookingCreatedConsumer(context));
+                                });
                             });
 
                     bus.StartAsync();
 
-                    Console.WriteLine("Listening Flight Booking...");
+                    Console.WriteLine("Flight Booking Consumer Application started...");
                     Console.ReadLine();
                 });
         }
