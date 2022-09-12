@@ -8,6 +8,6 @@ namespace Saga.Shared.Common
 {
     public interface IMessage
     {
-        Guid CollerationId { get; }
+        Guid CorrelationId { get; }
     }
 }

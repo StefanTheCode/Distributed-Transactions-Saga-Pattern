@@ -31,7 +31,6 @@ namespace Booking.Saga.Consumer
                 {
                     services.AddOptions();
 
-
                     var p = hostContext.Configuration.GetSection("MassTransitSettings");
 
                     var massTransitSettings = hostContext.Configuration.GetSection("MassTransitSettings")
@@ -52,6 +51,10 @@ namespace Booking.Saga.Consumer
                     });
 
                     bus.StartAsync();
+
+                    var _busInstance = BusConfiguration.Instance.ConfigureBus(massTransitSettings);
+
+                    SendEndpoint.Endpoint = _busInstance.GetSendEndpoint(new Uri($"{massTransitSettings.Uri}/{SagaConstants.SAGAQUEUENAME}")).Result;
 
                     Console.WriteLine("Booking Saga State Machine Application started...");
                     Console.ReadLine();

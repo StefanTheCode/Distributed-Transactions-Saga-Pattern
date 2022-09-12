@@ -47,19 +47,14 @@ namespace FlightService.Consumer
                             .ConfigureBus(massTransitSettings, (cfg) =>
                             {
                                 var context = services.BuildServiceProvider().GetService<FlightDbContext>();
-                                cfg.ReceiveEndpoint(nameof(CreateFlightBookingEventModel), e =>
+                                cfg.ReceiveEndpoint(nameof(CreateFlightBookingEvent), e =>
                                 {
                                     e.Consumer(() => new CreateFlightBookingConsumer(context));
                                 });
 
-                                cfg.ReceiveEndpoint(nameof(FlightBookingFailedEventModel), e =>
+                                cfg.ReceiveEndpoint(nameof(RollbackCarBookingEvent), e =>
                                 {
-                                    e.Consumer(() => new FlightBookingFailedConsumer(context));
-                                });
-
-                                cfg.ReceiveEndpoint(nameof(FlightBookingCreatedEventModel), e =>
-                                {
-                                    e.Consumer(() => new FlightBookingCreatedConsumer(context));
+                                    e.Consumer(() => new RollbackFlightBookingConsumer(context));
                                 });
                             });
 

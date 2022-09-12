@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace FlightService.Consumer.Consumer
 {
-    public class CreateFlightBookingConsumer : IConsumer<ICreateFlightBookingEventModel>
+    public class CreateFlightBookingConsumer : IConsumer<ICreateFlightBookingEvent>
     {
         private readonly FlightDbContext _dbContext;
 
@@ -23,7 +23,7 @@ namespace FlightService.Consumer.Consumer
             _dbContext = dbContext;
         }
 
-        public async Task Consume(ConsumeContext<ICreateFlightBookingEventModel> context)
+        public async Task Consume(ConsumeContext<ICreateFlightBookingEvent> context)
         {
             //Call DB - Create Flight Booking
             //Check dates - if not available publish HotelBookingFailed
@@ -44,12 +44,26 @@ namespace FlightService.Consumer.Consumer
             _dbContext.Flights.Add(flight);
             _dbContext.SaveChanges();
 
-            //await context.Publish<ICreateCarBookingEventModel>(new
+            //await context.Publish<IHotelBookingFailedEvent>(new
             //{
             //    CreatedDate = DateTime.Now,
-            //    BookingId = context.Message.BookingId,
-            //    FlightId = context.Message.FlightId
+            //    BookingId = context.Message.BookingId
             //});
+
+            //await context.RespondAsync<IHotelBookingFailedEvent>(new
+            //{
+            //    context.Message.BookingId,
+            //    context.Message.CreatedDate
+            //});
+
+            //if (flight.Price == 200)
+            //{
+            //    await context.Publish<IHotelBookingFailedEventModel>(new
+            //    {
+            //        CreatedDate = DateTime.Now,
+            //        BookingId = context.Message.BookingId
+            //    });
+            //}
 
             //try
             //{

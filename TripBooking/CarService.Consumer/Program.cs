@@ -8,6 +8,7 @@ using Microsoft.Extensions.Hosting;
 using Saga.Core.Concrete.Brokers;
 using Saga.Core.MessageBrokers.Concrete;
 using Saga.Shared.Consumers.Models.Car;
+using Saga.Shared.Consumers.Models.Flight;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -50,9 +51,14 @@ namespace CarService.Consumer
                             .ConfigureBus(massTransitSettings, (cfg) =>
                             {
                                 var context = services.BuildServiceProvider().GetService<CarDbContext>();
-                                cfg.ReceiveEndpoint(nameof(CreateCarBookingEventModel), e =>
+                                cfg.ReceiveEndpoint(nameof(CreateCarBookingEvent), e =>
                                 {
                                     e.Consumer(() => new CreateCarBookingConsumer(context));
+                                });
+
+                                cfg.ReceiveEndpoint(nameof(RollbackCarBookingEvent), e =>
+                                {
+                                    e.Consumer(() => new RollbackCarBookingConsumer(context));
                                 });
                             });
 

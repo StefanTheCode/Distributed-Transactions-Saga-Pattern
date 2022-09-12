@@ -3,9 +3,8 @@ using System;
 
 namespace Saga.Shared.Consumers.Abstract
 {
-    public interface ICreateNotificationEvent
+    public interface ICreateNotificationEvent : IMessage
     {
         int BookingId { get; }
-        Guid CorrelationId { get; }
     }
 }

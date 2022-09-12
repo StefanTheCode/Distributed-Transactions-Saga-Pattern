@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace CarService.Consumer.Consumer
 {
-    public class CreateCarBookingConsumer : IConsumer<ICreateCarBookingEventModel>
+    public class CreateCarBookingConsumer : IConsumer<ICreateCarBookingEvent>
     {
         private readonly CarDbContext _dbContext;
 
@@ -19,7 +19,7 @@ namespace CarService.Consumer.Consumer
             _dbContext = dbContext;
         }
 
-        public async Task Consume(ConsumeContext<ICreateCarBookingEventModel> context)
+        public async Task Consume(ConsumeContext<ICreateCarBookingEvent> context)
         {
             //Call DB - Create Car Booking
             //Check dates - if not available publish Failed
@@ -40,6 +40,13 @@ namespace CarService.Consumer.Consumer
 
             _dbContext.Rents.Add(rent);
             _dbContext.SaveChanges();
+
+            await context.Publish<IHotelBookingFailedEvent>(new
+            {
+                CreatedDate = DateTime.Now,
+                BookingId = context.Message.BookingId
+            });
+
 
             //await context.Publish<IHotelBookingCompletedEventModel>(new
             //{

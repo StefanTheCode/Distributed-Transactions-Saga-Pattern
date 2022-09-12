@@ -8,12 +8,19 @@ using System.Threading.Tasks;
 
 namespace HotelService.Consumer.Consumer
 {
-    public class HotelBookingCompletedConsumer : IConsumer<IHotelBookingCompletedEventModel>
+    public class HotelBookingCompletedConsumer : IConsumer<IHotelBookingCompletedEvent>
     {
-        public async Task Consume(ConsumeContext<IHotelBookingCompletedEventModel> context)
+        public async Task Consume(ConsumeContext<IHotelBookingCompletedEvent> context)
         {
             //Publish event
             Console.WriteLine($"{DateTime.Now.ToString("HH:mm:ss.ffffff")}: Booking Completed Consumer: " + context.Message.BookingId);
+
+            await context.Publish<ICreateNotificationEvent>(new
+            {
+                CreatedDate = DateTime.Now,
+                BookingId = context.Message.BookingId
+            });
+
         }
     }
 }
