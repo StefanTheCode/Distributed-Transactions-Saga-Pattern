@@ -3,10 +3,11 @@ using System;
 
 namespace Saga.Shared.Consumers.Abstract
 {
-    public interface IRollbackCarBookingEvent : IMessage
+    public interface IRollbackCarBookingEvent
     {
-        public int BookingId { get; }
-        public int FlightId { get; }
-        public DateTime CreatedDate { get; }
+        int BookingId { get; }
+        int FlightId { get; }
+        DateTime CreatedDate { get; }
+        Guid CorrelationId { get; }
     }
 }

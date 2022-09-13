@@ -1,4 +1,7 @@
 ﻿using MassTransit;
+using Saga.Core.Concrete.Brokers;
+using Saga.Core.Constants;
+using Saga.Core.MessageBrokers.Concrete;
 using Saga.Shared.Consumers.Abstract;
 using Saga.Shared.Consumers.Models.Flight;
 using System;
@@ -19,14 +22,16 @@ namespace HotelService.Consumer.Consumer
             await context.Publish<IRollbackFlightBookingEvent>(new
             {
                 CreatedDate = DateTime.Now,
-                BookingId = context.Message.BookingId
+                BookingId = context.Message.BookingId,
+                CorrelationId = context.Message.CorrelationId
             });
 
-            //await context.Publish<IRollbackCarBookingEventModel>(new
-            //{
-            //    CreatedDate = DateTime.Now,
-            //    BookingId = context.Message.BookingId
-            //});
+            await context.Publish<IRollbackCarBookingEvent>(new
+            {
+                CreatedDate = DateTime.Now,
+                BookingId = context.Message.BookingId,
+                CorrelationId = context.Message.CorrelationId
+            });
         }
     }
 }

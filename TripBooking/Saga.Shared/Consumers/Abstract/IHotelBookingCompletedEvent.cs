@@ -3,8 +3,9 @@ using System;
 
 namespace Saga.Shared.Consumers.Abstract
 {
-    public interface IHotelBookingCompletedEvent : IMessage
+    public interface IHotelBookingCompletedEvent
     {
         int BookingId { get; }
+        Guid CorrelationId { get; }
     }
 }

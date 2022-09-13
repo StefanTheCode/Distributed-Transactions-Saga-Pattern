@@ -5,9 +5,9 @@ namespace Saga.Shared.Consumers.Abstract
 {
     public interface ICreateFlightBookingEvent
     {
-        public int BookingId { get; }
-        public int FlightId { get; }
-        public DateTime CreatedDate { get; }
-        public Guid CorrelationId { get; }
+        int BookingId { get; }
+        int FlightId { get; }
+        DateTime CreatedDate { get; }
+        Guid CorrelationId { get; }
     }
 }

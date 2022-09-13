@@ -18,7 +18,8 @@ namespace HotelService.Consumer.Consumer
             await context.Publish<ICreateNotificationEvent>(new
             {
                 CreatedDate = DateTime.Now,
-                BookingId = context.Message.BookingId
+                BookingId = context.Message.BookingId,
+                CorrelationId = context.Message.CorrelationId
             });
 
         }

@@ -3,11 +3,13 @@ using System;
 
 namespace Saga.Shared.Consumers.Abstract
 {
-    public interface ISendBookingRequestEvent : IMessage
+    public interface ISendBookingRequestEvent
     {
-        public int BookingId { get; set; }
-        public string Email { get; set; }
-        public DateTime From { get; set; }
-        public DateTime To { get; set; }
+        int BookingId { get; set; }
+        string Email { get; set; }
+        DateTime From { get; set; }
+        DateTime To { get; set; }
+        Guid CorrelationId { get; }
+
     }
 }

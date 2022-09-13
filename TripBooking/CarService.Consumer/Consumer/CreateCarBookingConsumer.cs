@@ -41,11 +41,11 @@ namespace CarService.Consumer.Consumer
             _dbContext.Rents.Add(rent);
             _dbContext.SaveChanges();
 
-            await context.Publish<IHotelBookingFailedEvent>(new
-            {
-                CreatedDate = DateTime.Now,
-                BookingId = context.Message.BookingId
-            });
+            //await context.Publish<IHotelBookingFailedEvent>(new
+            //{
+            //    CreatedDate = DateTime.Now,
+            //    BookingId = context.Message.BookingId
+            //});
 
 
             //await context.Publish<IHotelBookingCompletedEventModel>(new
