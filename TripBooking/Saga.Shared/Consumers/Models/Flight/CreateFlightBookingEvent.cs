@@ -6,9 +6,9 @@ namespace Saga.Shared.Consumers.Models.Flight
 {
     public class CreateFlightBookingEvent : ICreateFlightBookingEvent
     {
-        private readonly BookingSagaModel _bookingSagaModel;
+        private readonly BookingState _bookingSagaModel;
 
-        public CreateFlightBookingEvent(BookingSagaModel bookingSagaModel)
+        public CreateFlightBookingEvent(BookingState bookingSagaModel)
         {
             _bookingSagaModel = bookingSagaModel;
             CreatedDate = DateTime.Now;

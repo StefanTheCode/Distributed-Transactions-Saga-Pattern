@@ -6,9 +6,9 @@ namespace Saga.Shared.Consumers.Models.Notifications
 {
     public class CreateNotificationEvent : ICreateNotificationEvent
     {
-        private readonly BookingSagaModel _bookingSagaModel;
+        private readonly BookingState _bookingSagaModel;
 
-        public CreateNotificationEvent(BookingSagaModel bookingSagaModel)
+        public CreateNotificationEvent(BookingState bookingSagaModel)
         {
             _bookingSagaModel = bookingSagaModel;
             CreatedDate = DateTime.Now;

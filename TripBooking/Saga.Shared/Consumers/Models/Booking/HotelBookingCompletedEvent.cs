@@ -6,9 +6,9 @@ namespace Saga.Shared.Consumers.Models.Booking
 {
     public class HotelBookingCompletedEvent : IHotelBookingCompletedEvent
     {
-        private readonly BookingSagaModel _bookingSagaModel;
+        private readonly BookingState _bookingSagaModel;
 
-        public HotelBookingCompletedEvent(BookingSagaModel bookingSagaModel)
+        public HotelBookingCompletedEvent(BookingState bookingSagaModel)
         {
             _bookingSagaModel = bookingSagaModel;
             CreatedDate = DateTime.Now;

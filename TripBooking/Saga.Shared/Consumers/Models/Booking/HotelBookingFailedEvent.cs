@@ -10,9 +10,9 @@ namespace Saga.Shared.Consumers.Models.Booking
 {
     public class HotelBookingFailedEvent : IHotelBookingFailedEvent
     {
-        private readonly BookingSagaModel _bookingSagaModel;
+        private readonly BookingState _bookingSagaModel;
 
-        public HotelBookingFailedEvent(BookingSagaModel bookingSagaModel)
+        public HotelBookingFailedEvent(BookingState bookingSagaModel)
         {
             _bookingSagaModel = bookingSagaModel;
             CreatedDate = DateTime.Now;

@@ -6,9 +6,9 @@ namespace Saga.Shared.Consumers.Models.Flight
 {
     public class RollbackCarBookingEvent : IRollbackCarBookingEvent
     {
-        private readonly BookingSagaModel _bookingSagaModel;
+        private readonly BookingState _bookingSagaModel;
 
-        public RollbackCarBookingEvent(BookingSagaModel bookingSagaModel)
+        public RollbackCarBookingEvent(BookingState bookingSagaModel)
         {
             _bookingSagaModel = bookingSagaModel;
             CreatedDate = DateTime.Now;

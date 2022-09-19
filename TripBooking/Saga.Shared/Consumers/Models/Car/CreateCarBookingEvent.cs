@@ -6,9 +6,9 @@ namespace Saga.Shared.Consumers.Models.Car
 {
     public class CreateCarBookingEvent : ICreateCarBookingEvent
     {
-        private readonly BookingSagaModel _bookingSagaModel;
+        private readonly BookingState _bookingSagaModel;
 
-        public CreateCarBookingEvent(BookingSagaModel bookingSagaModel)
+        public CreateCarBookingEvent(BookingState bookingSagaModel)
         {
             _bookingSagaModel = bookingSagaModel;
             CreatedDate = DateTime.Now;

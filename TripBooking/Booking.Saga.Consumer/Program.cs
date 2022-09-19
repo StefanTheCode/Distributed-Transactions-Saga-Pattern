@@ -38,8 +38,8 @@ namespace Booking.Saga.Consumer
 
                     services.AddSingleton(massTransitSettings);
 
-                    var bookingSaga = new BookingProcessorStateMachine();
-                    var repo = new InMemorySagaRepository<BookingSagaModel>();
+                    var bookingSaga = new BookingStateMachine();
+                    var repo = new InMemorySagaRepository<BookingState>();
 
                     var bus = BusConfiguration.Instance
                     .ConfigureBus(massTransitSettings, (cfg) =>
