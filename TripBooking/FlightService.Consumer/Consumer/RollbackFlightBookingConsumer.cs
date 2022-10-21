@@ -31,6 +31,12 @@ namespace FlightService.Consumer.Consumer
 
             Console.WriteLine($"{DateTime.Now.ToString("HH:mm:ss.ffffff")}: Rollback Flight Booking for Booking ID - " + context.Message.BookingId);
 
+            await context.Publish<IRollbackCarBookingEvent>(new
+            {
+                CreatedDate = DateTime.Now,
+                context.Message.BookingId
+            });
+
 
             //try
             //{

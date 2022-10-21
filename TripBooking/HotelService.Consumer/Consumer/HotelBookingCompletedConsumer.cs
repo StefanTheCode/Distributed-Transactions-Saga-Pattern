@@ -15,12 +15,12 @@ namespace HotelService.Consumer.Consumer
             //Publish event
             Console.WriteLine($"{DateTime.Now.ToString("HH:mm:ss.ffffff")}: Booking Completed Consumer: " + context.Message.BookingId);
 
-            await context.Publish<ICreateNotificationEvent>(new
-            {
-                CreatedDate = DateTime.Now,
-                BookingId = context.Message.BookingId,
-                CorrelationId = context.Message.CorrelationId
-            });
+            //await context.Publish<ICreateNotificationEvent>(new
+            //{
+            //    CreatedDate = DateTime.Now,
+            //    BookingId = context.Message.BookingId,
+            //    CorrelationId = context.Message.CorrelationId
+            //});
 
         }
     }

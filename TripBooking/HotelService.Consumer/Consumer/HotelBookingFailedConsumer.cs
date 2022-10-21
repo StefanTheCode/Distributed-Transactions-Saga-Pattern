@@ -22,16 +22,15 @@ namespace HotelService.Consumer.Consumer
             await context.Publish<IRollbackFlightBookingEvent>(new
             {
                 CreatedDate = DateTime.Now,
-                BookingId = context.Message.BookingId,
-                CorrelationId = context.Message.CorrelationId
+               context.Message.BookingId
             });
 
-            await context.Publish<IRollbackCarBookingEvent>(new
-            {
-                CreatedDate = DateTime.Now,
-                BookingId = context.Message.BookingId,
-                CorrelationId = context.Message.CorrelationId
-            });
+            //await context.Publish<IRollbackCarBookingEvent>(new
+            //{
+            //    CreatedDate = DateTime.Now,
+            //    BookingId = context.Message.BookingId,
+            //    CorrelationId = context.Message.CorrelationId
+            //});
         }
     }
 }

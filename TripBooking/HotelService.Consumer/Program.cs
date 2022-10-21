@@ -45,6 +45,11 @@ namespace HotelService.Consumer
                     var bus = BusConfiguration.Instance
                             .ConfigureBus(massTransitSettings, (cfg) =>
                             {
+                                cfg.ReceiveEndpoint(nameof(CreatedBookingEvent), e =>
+                                {
+                                    e.Consumer(() => new HotelBookingCreatedConsumer());
+                                });
+
                                 cfg.ReceiveEndpoint(nameof(HotelBookingCompletedEvent), e =>
                                 {
                                     e.Consumer(() => new HotelBookingCompletedConsumer());

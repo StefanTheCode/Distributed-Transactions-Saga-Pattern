@@ -61,7 +61,7 @@ namespace HotelService.Application.Services.BookingService.Command
 
             if (await _dbContext.SaveChangesAsync(cancellationToken) < 1) throw new Exception("Create Booking Failed!"); //publish event?
 
-            await _sendEndpoint.Send(new SendBookingRequestEvent
+            await _sendEndpoint.Send(new BookingRequestEvent
             {
                 BookingId = booking.Id,
                 CreatedDate = DateTime.Now,
