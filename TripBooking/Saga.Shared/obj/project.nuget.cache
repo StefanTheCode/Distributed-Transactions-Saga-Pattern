@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VqbQ/6sRKQoFaP9qeCc/Y6/ZmaB3lBIs27eONmDpG2OXiaGFRWpyeqLmpEMDmNBIMznwNuzalr51vuCY19QDrg==",
+  "dgSpecHash": "qKpuGKDI+gzBv91JQvdgIPC1n67NJ9eB+l0BLRiEluB2G7+EPEKi+noO68fTyDATFa96Z18pYZDjmbTgy3Ze0w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Projects\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\Saga.Shared.csproj",
   "expectedPackageFiles": [

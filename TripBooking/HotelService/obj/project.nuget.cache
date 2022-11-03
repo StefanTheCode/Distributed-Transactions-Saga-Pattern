@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "BV89iL4pE8flTYhHo4DwtsSJS1bzHm95VynmzP9huUqa4RB37rZpg65y4f9cSv1dPQIo8N5gxpu8lcTQM5zQAw==",
+  "dgSpecHash": "G5DHvdYmB3tiRRqcYV4D6atd6lsev4Z32G2pJrPw0HBNrLHAdVv/n5eFk0TYQ427w78AmB/9Gm+LRZ1RHDLG7w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Projects\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService\\HotelService.csproj",
   "expectedPackageFiles": [

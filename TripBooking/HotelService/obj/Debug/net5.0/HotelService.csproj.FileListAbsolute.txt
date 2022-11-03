@@ -91,3 +91,8 @@ C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\Tr
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService\bin\Debug\net5.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService\bin\Debug\net5.0\RabbitMQ.Client.dll
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService\obj\Debug\net5.0\staticwebassets\HotelService.StaticWebAssets.Pack.cache
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService\obj\Debug\net5.0\staticwebassets\msbuild.HotelService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService\obj\Debug\net5.0\staticwebassets\msbuild.build.HotelService.props
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.HotelService.props
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.HotelService.props
