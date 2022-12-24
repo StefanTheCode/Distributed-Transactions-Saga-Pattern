@@ -61,6 +61,11 @@ C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\Tr
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService\obj\Debug\net5.0\NotificationService.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService\obj\Debug\net5.0\scopedcss\bundle\NotificationService.styles.css
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService\obj\Debug\net5.0\staticwebassets\NotificationService.StaticWebAssets.Manifest.cache
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService\obj\Debug\net5.0\staticwebassets\NotificationService.StaticWebAssets.Pack.cache
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService\obj\Debug\net5.0\staticwebassets\msbuild.NotificationService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService\obj\Debug\net5.0\staticwebassets\msbuild.build.NotificationService.props
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.NotificationService.props
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.NotificationService.props
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService\obj\Debug\net5.0\NotificationService.RazorTargetAssemblyInfo.cache
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService\obj\Debug\net5.0\NotificationService.csproj.CopyComplete
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService\obj\Debug\net5.0\NotificationService.dll

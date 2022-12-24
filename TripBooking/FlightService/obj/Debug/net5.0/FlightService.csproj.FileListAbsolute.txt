@@ -61,6 +61,11 @@ C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\Tr
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService\obj\Debug\net5.0\FlightService.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService\obj\Debug\net5.0\scopedcss\bundle\FlightService.styles.css
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService\obj\Debug\net5.0\staticwebassets\FlightService.StaticWebAssets.Manifest.cache
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService\obj\Debug\net5.0\staticwebassets\FlightService.StaticWebAssets.Pack.cache
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService\obj\Debug\net5.0\staticwebassets\msbuild.FlightService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService\obj\Debug\net5.0\staticwebassets\msbuild.build.FlightService.props
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.FlightService.props
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.FlightService.props
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService\obj\Debug\net5.0\FlightService.RazorTargetAssemblyInfo.cache
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService\obj\Debug\net5.0\FlightService.csproj.CopyComplete
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService\obj\Debug\net5.0\FlightService.dll

@@ -61,7 +61,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotificationService.Domain"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sagas", "Sagas", "{9FC272EB-B306-4988-913F-D867D7C31EEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booking.Saga.Consumer", "Booking.Saga.Consumer\Booking.Saga.Consumer.csproj", "{0D30E619-4E60-4A06-8A6B-704AF659CB36}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Booking.Saga.Consumer", "Booking.Saga.Consumer\Booking.Saga.Consumer.csproj", "{0D30E619-4E60-4A06-8A6B-704AF659CB36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{50E5DEF3-E70C-41B4-88CF-689669C657DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -161,6 +163,10 @@ Global
 		{0D30E619-4E60-4A06-8A6B-704AF659CB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D30E619-4E60-4A06-8A6B-704AF659CB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D30E619-4E60-4A06-8A6B-704AF659CB36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E5DEF3-E70C-41B4-88CF-689669C657DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E5DEF3-E70C-41B4-88CF-689669C657DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E5DEF3-E70C-41B4-88CF-689669C657DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E5DEF3-E70C-41B4-88CF-689669C657DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -195,6 +201,7 @@ Global
 		{E9AFB998-2F59-449B-8C0B-C99BDD37B1DD} = {A910DCC9-F10C-47F7-9CE8-E46C1A0A75B1}
 		{9FC272EB-B306-4988-913F-D867D7C31EEB} = {D78BEB9A-32C5-4B00-9578-9CCCB45A5CA4}
 		{0D30E619-4E60-4A06-8A6B-704AF659CB36} = {9FC272EB-B306-4988-913F-D867D7C31EEB}
+		{50E5DEF3-E70C-41B4-88CF-689669C657DD} = {D78BEB9A-32C5-4B00-9578-9CCCB45A5CA4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {99D3C07F-AA98-4DC2-9600-0013C5BF2AF0}

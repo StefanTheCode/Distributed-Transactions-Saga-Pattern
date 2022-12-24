@@ -61,6 +61,11 @@ C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\Tr
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\CarService\obj\Debug\net5.0\CarService.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\CarService\obj\Debug\net5.0\scopedcss\bundle\CarService.styles.css
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\CarService\obj\Debug\net5.0\staticwebassets\CarService.StaticWebAssets.Manifest.cache
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\CarService\obj\Debug\net5.0\staticwebassets\CarService.StaticWebAssets.Pack.cache
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\CarService\obj\Debug\net5.0\staticwebassets\msbuild.CarService.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\CarService\obj\Debug\net5.0\staticwebassets\msbuild.build.CarService.props
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\CarService\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.CarService.props
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\CarService\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.CarService.props
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\CarService\obj\Debug\net5.0\CarService.RazorTargetAssemblyInfo.cache
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\CarService\obj\Debug\net5.0\CarService.csproj.CopyComplete
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\CarService\obj\Debug\net5.0\CarService.dll

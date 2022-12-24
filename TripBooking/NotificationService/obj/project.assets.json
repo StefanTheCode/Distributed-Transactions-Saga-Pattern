@@ -1903,9 +1903,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "MediatR": "10.0.1",
-          "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
-          "Microsoft.EntityFrameworkCore": "5.0.17",
           "NotificationService.Domain": "1.0.0"
         },
         "compile": {
@@ -1929,9 +1926,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.17",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.17",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17",
           "NotificationService.Application": "1.0.0"
         },
         "compile": {

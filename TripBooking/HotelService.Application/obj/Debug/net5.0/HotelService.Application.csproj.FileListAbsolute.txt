@@ -2,8 +2,10 @@ C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\Tr
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\bin\Debug\net5.0\HotelService.Application.dll
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\bin\Debug\net5.0\HotelService.Application.pdb
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\bin\Debug\net5.0\HotelService.Domain.dll
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\bin\Debug\net5.0\Saga.Core.dll
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\bin\Debug\net5.0\Saga.Shared.dll
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\bin\Debug\net5.0\HotelService.Domain.pdb
+C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\bin\Debug\net5.0\Saga.Core.pdb
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\bin\Debug\net5.0\Saga.Shared.pdb
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\obj\Debug\net5.0\HotelService.Application.csproj.AssemblyReference.cache
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\obj\Debug\net5.0\HotelService.Application.GeneratedMSBuildEditorConfig.editorconfig
@@ -15,5 +17,3 @@ C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\Tr
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\obj\Debug\net5.0\refint\HotelService.Application.dll
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\obj\Debug\net5.0\HotelService.Application.pdb
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\obj\Debug\net5.0\ref\HotelService.Application.dll
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\bin\Debug\net5.0\Saga.Core.dll
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\HotelService.Application\bin\Debug\net5.0\Saga.Core.pdb

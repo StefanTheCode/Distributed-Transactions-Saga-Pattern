@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "NotificationService.Infrastructure": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:55623;http://localhost:55624"
+    }
+  }
+}

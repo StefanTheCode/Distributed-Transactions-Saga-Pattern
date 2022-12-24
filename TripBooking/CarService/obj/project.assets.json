@@ -1903,10 +1903,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "CarService.Domain": "1.0.0",
-          "MediatR": "10.0.1",
-          "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
-          "Microsoft.EntityFrameworkCore": "5.0.17"
+          "CarService.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CarService.Application.dll": {}
@@ -1930,10 +1927,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "CarService.Application": "1.0.0",
-          "CarService.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "5.0.17",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.17",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
+          "CarService.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CarService.Infrastructure.dll": {}

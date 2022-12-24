@@ -113,7 +113,7 @@ namespace Booking.Saga.Consumer
                   ctx.Saga.BookingId = ctx.Message.BookingId;
               })
               .ThenAsync(ctx => Console.Out.WriteLineAsync($"{ctx.Saga.BookingId} create car event triggered."))
-              .Publish(ctx => new HotelBookingCompletedEvent(ctx.Saga))
+              //.Publish(ctx => new HotelBookingCompletedEvent(ctx.Saga))
               .TransitionTo(CarBookingCreated),
               When(HotelBookingFailedEvent)
               .Then(ctx =>

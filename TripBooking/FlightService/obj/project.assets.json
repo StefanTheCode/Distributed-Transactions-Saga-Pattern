@@ -1930,10 +1930,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "FlightService.Application": "1.0.0",
-          "FlightService.Domain": "1.0.0",
-          "Microsoft.EntityFrameworkCore": "5.0.17",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.17",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
+          "FlightService.Domain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/FlightService.Infrastructure.dll": {}
