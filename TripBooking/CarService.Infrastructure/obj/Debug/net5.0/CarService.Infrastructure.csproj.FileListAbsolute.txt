@@ -18,3 +18,23 @@ C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\Tr
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\obj\Debug\net5.0\CarService.Infrastructure.pdb
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\obj\Debug\net5.0\CarService.Infrastructure.genruntimeconfig.cache
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\obj\Debug\net5.0\ref\CarService.Infrastructure.dll
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\bin\Debug\net5.0\CarService.Infrastructure.deps.json
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\bin\Debug\net5.0\CarService.Infrastructure.runtimeconfig.json
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\bin\Debug\net5.0\CarService.Infrastructure.runtimeconfig.dev.json
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\bin\Debug\net5.0\CarService.Infrastructure.dll
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\bin\Debug\net5.0\CarService.Infrastructure.pdb
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\bin\Debug\net5.0\CarService.Application.dll
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\bin\Debug\net5.0\CarService.Domain.dll
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\bin\Debug\net5.0\CarService.Application.pdb
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\bin\Debug\net5.0\CarService.Domain.pdb
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\obj\Debug\net5.0\CarService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\obj\Debug\net5.0\CarService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\obj\Debug\net5.0\CarService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\obj\Debug\net5.0\CarService.Infrastructure.AssemblyInfo.cs
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\obj\Debug\net5.0\CarService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\obj\Debug\net5.0\CarService.Infrastructure.csproj.CopyComplete
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\obj\Debug\net5.0\CarService.Infrastructure.dll
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\obj\Debug\net5.0\refint\CarService.Infrastructure.dll
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\obj\Debug\net5.0\CarService.Infrastructure.pdb
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\obj\Debug\net5.0\CarService.Infrastructure.genruntimeconfig.cache
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\CarService.Infrastructure\obj\Debug\net5.0\ref\CarService.Infrastructure.dll

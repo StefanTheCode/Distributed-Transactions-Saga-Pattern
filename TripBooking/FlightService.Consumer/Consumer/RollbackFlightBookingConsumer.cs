@@ -37,7 +37,6 @@ namespace FlightService.Consumer.Consumer
                 context.Message.BookingId
             });
 
-
             //try
             //{
             //    throw new Exception("Greska");

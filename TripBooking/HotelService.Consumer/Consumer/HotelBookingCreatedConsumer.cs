@@ -14,6 +14,7 @@ namespace HotelService.Consumer.Consumer
         {
             Console.WriteLine($"{DateTime.Now.ToString("HH:mm:ss.ffffff")}: Booking Created Consumer: " + context.Message.BookingId);
 
+
             //await context.Publish<ICreateFlightBookingEvent>(new
             //{
             //    CreatedDate = DateTime.Now,

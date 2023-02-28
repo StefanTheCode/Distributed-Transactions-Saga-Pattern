@@ -10,3 +10,15 @@ C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\Tr
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\refint\Saga.Core.dll
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\Saga.Core.pdb
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\ref\Saga.Core.dll
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\bin\Debug\net5.0\Saga.Core.deps.json
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\bin\Debug\net5.0\Saga.Core.dll
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\bin\Debug\net5.0\Saga.Core.pdb
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\Saga.Core.csproj.AssemblyReference.cache
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\Saga.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\Saga.Core.AssemblyInfoInputs.cache
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\Saga.Core.AssemblyInfo.cs
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\Saga.Core.csproj.CoreCompileInputs.cache
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\Saga.Core.dll
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\refint\Saga.Core.dll
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\Saga.Core.pdb
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Core\obj\Debug\net5.0\ref\Saga.Core.dll

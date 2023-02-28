@@ -11,6 +11,7 @@ using Saga.Shared.Consumers.Models.Flight;
 using Saga.Shared.Consumers.Models.Notifications;
 using Saga.Shared.Consumers.Models.Sagas;
 using System;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 
 namespace Booking.Saga.Consumer
@@ -42,6 +43,7 @@ namespace Booking.Saga.Consumer
 
             Event(() => RollbackFlightBookingEvent,
            cfg => cfg.CorrelateById(x => x.Message.CorrelationId));
+
         }
 
         public State Failed { get; set; }
@@ -51,7 +53,6 @@ namespace Booking.Saga.Consumer
         public State HotelBookingCreated { get; set; }
         public State FlightBookingCreated { get; set; }
         public State CarBookingCreated { get; set; }
-
         public Event<IBookingRequestEvent> BookingRequestEvent { get; set; }
         public Event<IHotelBookingFailedEvent> HotelBookingFailedEvent { get; set; }
         public Event<IHotelBookingCompletedEvent> HotelBookingCompletedEvent { get; set; }
@@ -73,7 +74,7 @@ namespace Booking.Saga.Consumer
                 {
                     ctx.Saga.BookingId = ctx.Message.BookingId;
                 })
-                .ThenAsync(ctx => Console.Out.WriteLineAsync($"Hotel Booking Received & Create Event triggered: {ctx.Message.BookingId}. I want to create Flight Booking. State: {ctx.Saga.CurrentState.Name}"))
+                .ThenAsync(ctx => Console.Out.WriteLineAsync($"Initialy: When BookingRequest Event. Hotel Booking Received {ctx.Message.BookingId}. I'm publishing CreateBookingEvent.Current State: {ctx.Saga.CurrentState.Name}"))
                 .Publish(ctx => new CreatedBookingEvent(ctx.Saga))
                 .TransitionTo(BookingReceived)
             );
@@ -84,7 +85,7 @@ namespace Booking.Saga.Consumer
                 {
                     ctx.Saga.BookingId = ctx.Message.BookingId;
                 })
-                .ThenAsync(ctx => Console.Out.WriteLineAsync($"Hotel booking Created: {ctx.Message.BookingId}. I want to create Flight Booking. State: {ctx.Saga.CurrentState.Name}"))
+                .ThenAsync(ctx => Console.Out.WriteLineAsync($"Hotel booking Created: {ctx.Message.BookingId}. I'm publishing CreateFlightBookingEvent. Current State: {ctx.Saga.CurrentState.Name}"))
                 .Publish(ctx => new CreateFlightBookingEvent(ctx.Saga))
                 .TransitionTo(HotelBookingCreated));
 
@@ -94,7 +95,7 @@ namespace Booking.Saga.Consumer
                 {
                     ctx.Saga.BookingId = ctx.Message.BookingId;
                 })
-              .ThenAsync(ctx => Console.Out.WriteLineAsync($"{ctx.Message.BookingId} create flight booking event triggered."))
+              .ThenAsync(ctx => Console.Out.WriteLineAsync($"Create Flight Booking Event Finished. {ctx.Message.BookingId}. I'm publishing Create Car Booking Event. Current State: {ctx.Saga.CurrentState.Name}"))
               .Publish(ctx => new CreateCarBookingEvent(ctx.Saga))
               .TransitionTo(FlightBookingCreated),
               When(HotelBookingFailedEvent)
@@ -102,7 +103,7 @@ namespace Booking.Saga.Consumer
               {
                   ctx.Saga.BookingId = ctx.Message.BookingId;
               })
-              .ThenAsync(ctx => Console.Out.WriteLineAsync($"{ctx.Message.BookingId} Flight booking  failed."))
+              .ThenAsync(ctx => Console.Out.WriteLineAsync($"Hotel Booking Failed Event in Create Flight Booking Event. {ctx.Message.BookingId}. I'm publishing Hotel Booking Failed Event. Current State: {ctx.Saga.CurrentState.Name}."))
               .Publish(ctx => new HotelBookingFailedEvent(ctx.Saga))
               .TransitionTo(Failed));
 
@@ -112,7 +113,7 @@ namespace Booking.Saga.Consumer
               {
                   ctx.Saga.BookingId = ctx.Message.BookingId;
               })
-              .ThenAsync(ctx => Console.Out.WriteLineAsync($"{ctx.Saga.BookingId} create car event triggered."))
+              .ThenAsync(ctx => Console.Out.WriteLineAsync($"Create Car Booking Event Finished. {ctx.Saga.BookingId}. I'm transitioning to CarBookingCreated STatus. Current State: {ctx.Saga.CurrentState.Name}"))
               //.Publish(ctx => new HotelBookingCompletedEvent(ctx.Saga))
               .TransitionTo(CarBookingCreated),
               When(HotelBookingFailedEvent)
@@ -120,13 +121,13 @@ namespace Booking.Saga.Consumer
               {
                   ctx.Saga.BookingId = ctx.Message.BookingId;
               })
-               .ThenAsync(ctx => Console.Out.WriteLineAsync($"{ctx.Saga.BookingId} create car failed."))
+                .ThenAsync(ctx => Console.Out.WriteLineAsync($"Hotel Booking Failed Event in Create Car Booking Event. {ctx.Message.BookingId}. I'm publishing Hotel Booking Failed Event. Current State: {ctx.Saga.CurrentState.Name}."))
                .Publish(ctx => new HotelBookingFailedEvent(ctx.Saga))
                .TransitionTo(Failed));
 
             During(CarBookingCreated,
             When(HotelBookingCompletedEvent)
-            .ThenAsync(ctx => Console.Out.WriteLineAsync($"{ctx.Saga.BookingId} booking completed event triggered."))
+            .ThenAsync(ctx => Console.Out.WriteLineAsync($"Hotel Booking Completed finished. {ctx.Saga.BookingId}. I'm finalizing. CUrrent State: {ctx.Saga.CurrentState.Name}"))
             .TransitionTo(Finished)
             .Finalize(),
              When(HotelBookingFailedEvent)
@@ -134,10 +135,15 @@ namespace Booking.Saga.Consumer
              {
                  ctx.Saga.BookingId = ctx.Message.BookingId;
              })
-             .ThenAsync(ctx => Console.Out.WriteLineAsync($"{ctx.Saga.BookingId} create booking failed."))
+             .ThenAsync(ctx => Console.Out.WriteLineAsync($"Hotel Booking Failed finished. {ctx.Saga.BookingId}. Current State: {ctx.Saga.CurrentState.Name}"))
              .Publish(ctx => new HotelBookingFailedEvent(ctx.Saga))
              .TransitionTo(Failed)
              .Finalize());
+
+            //CompositeEvent(() => TestEvent, x => x.BookingId, HotelBookingCreatedEvent, CreateFlightBookingEvent, CreateCarBookingEvent);
+            //DuringAny(
+            //    When(TestEvent)
+            //        .Then(context => Console.WriteLine("Desio se kompozitni event")));
 
             SetCompletedWhenFinalized();
         }

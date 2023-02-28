@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oyFuVMtPTdnpJ8v1VbgUbB3t/EpnrEMmnIhl72ljFrdTJ5wuJsaNoy1nREovVfGRLLzJJSfUipyrmfpHvVj0Mg==",
+  "dgSpecHash": "a0awJAOWlyT84M8rUhQrtMm+xaoXYTuEPQkG+8+sIB64xbEhWWp18QE3K08oKmLJKHkkwONcJWVcaLc5rmwKpQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Projects\\Distributed-Transactions-Saga-Pattern\\TripBooking\\CarService.Domain\\CarService.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\CarService.Domain\\CarService.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -47,6 +47,7 @@ namespace CarService.Consumer.Consumer
                 context.Message.BookingId
             });
 
+
             //await context.Publish<IHotelBookingCompletedEvent>(new
             //{
             //    CreatedDate = DateTime.Now,

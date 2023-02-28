@@ -10,3 +10,15 @@ C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\Tr
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Domain\obj\Debug\net5.0\refint\NotificationService.Domain.dll
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Domain\obj\Debug\net5.0\NotificationService.Domain.pdb
 C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Domain\obj\Debug\net5.0\ref\NotificationService.Domain.dll
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Domain\bin\Debug\net5.0\NotificationService.Domain.deps.json
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Domain\bin\Debug\net5.0\NotificationService.Domain.dll
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Domain\bin\Debug\net5.0\NotificationService.Domain.pdb
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Domain\obj\Debug\net5.0\NotificationService.Domain.csproj.AssemblyReference.cache
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Domain\obj\Debug\net5.0\NotificationService.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Domain\obj\Debug\net5.0\NotificationService.Domain.AssemblyInfoInputs.cache
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Domain\obj\Debug\net5.0\NotificationService.Domain.AssemblyInfo.cs
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Domain\obj\Debug\net5.0\NotificationService.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Domain\obj\Debug\net5.0\NotificationService.Domain.dll
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Domain\obj\Debug\net5.0\refint\NotificationService.Domain.dll
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Domain\obj\Debug\net5.0\NotificationService.Domain.pdb
+C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\NotificationService.Domain\obj\Debug\net5.0\ref\NotificationService.Domain.dll
