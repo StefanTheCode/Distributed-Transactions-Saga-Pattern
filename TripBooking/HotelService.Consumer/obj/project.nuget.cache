@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fld8/iRRu7HxAWm29PXIC/ptn2lnrVwMcB3q6JhTtRUgkNLMI3NKj1RkCDzGGsmztvCmeZAWxMn2N1ZY9YbRzg==",
+  "dgSpecHash": "kwPcsuwK8YiFnSomjuPFdWPvcXy6l60o8I/w5JYTPIZ424TcZo281LKV6vBXtL4NdteKrPq7lBt/iRYm324RpQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Consumer\\HotelService.Consumer.csproj",
   "expectedPackageFiles": [

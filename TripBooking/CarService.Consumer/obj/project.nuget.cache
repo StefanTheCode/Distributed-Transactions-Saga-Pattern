@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "APlODFFR9APdoRdus8htUPKeIsTN7OgxWJH8y8068dz+07B4bWxTbwWog3793kH1sGpTgRgYwqqLqAmdGDUJ3Q==",
+  "dgSpecHash": "uIwYXHbJB21C3xjRfduP1P1CM8lVFvjD3/WdB/E3O4qjlzdnc+kcbmxJRHpOIZVFNAKzBiXVqmFInXZsdbDXbw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\CarService.Consumer\\CarService.Consumer.csproj",
   "expectedPackageFiles": [
