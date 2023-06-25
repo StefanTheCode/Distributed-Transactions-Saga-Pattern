@@ -1,11 +1,7 @@
-﻿using CarService.Domain.Entities;
-using CarService.Infrastructure.Persistence;
+﻿using CarService.Infrastructure.Persistence;
 using MassTransit;
 using Saga.Shared.Consumers.Abstract;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace CarService.Consumer.Consumer
