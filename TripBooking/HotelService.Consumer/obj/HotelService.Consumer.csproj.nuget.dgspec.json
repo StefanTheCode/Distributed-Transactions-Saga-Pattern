@@ -1,42 +1,38 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Consumer\\HotelService.Consumer.csproj": {}
+    "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Consumer\\HotelService.Consumer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Application\\HotelService.Application.csproj": {
+    "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Application\\HotelService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Application\\HotelService.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Application\\HotelService.Application.csproj",
         "projectName": "HotelService.Application",
-        "projectPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Application\\HotelService.Application.csproj",
-        "packagesPath": "C:\\Users\\Djokic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Application\\obj\\",
+        "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Application\\HotelService.Application.csproj",
+        "packagesPath": "C:\\Users\\Stefan Djokic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Stefan Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\HotelService.Domain.csproj": {
-                "projectPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\HotelService.Domain.csproj"
+              "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\HotelService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\HotelService.Domain.csproj"
               },
-              "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Core\\Saga.Core.csproj": {
-                "projectPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Core\\Saga.Core.csproj"
+              "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Core\\Saga.Core.csproj": {
+                "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Core\\Saga.Core.csproj"
               }
             }
           }
@@ -48,8 +44,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "MassTransit": {
               "target": "Package",
@@ -65,7 +61,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.16, )"
             }
           },
           "imports": [
@@ -84,43 +80,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Consumer\\HotelService.Consumer.csproj": {
+    "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Consumer\\HotelService.Consumer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Consumer\\HotelService.Consumer.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Consumer\\HotelService.Consumer.csproj",
         "projectName": "HotelService.Consumer",
-        "projectPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Consumer\\HotelService.Consumer.csproj",
-        "packagesPath": "C:\\Users\\Djokic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Consumer\\obj\\",
+        "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Consumer\\HotelService.Consumer.csproj",
+        "packagesPath": "C:\\Users\\Stefan Djokic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Consumer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Stefan Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Infrastructure\\HotelService.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Infrastructure\\HotelService.Infrastructure.csproj"
+              "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Infrastructure\\HotelService.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Infrastructure\\HotelService.Infrastructure.csproj"
               },
-              "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\Saga.Shared.csproj": {
-                "projectPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\Saga.Shared.csproj"
+              "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\Saga.Shared.csproj": {
+                "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\Saga.Shared.csproj"
               }
             }
           }
@@ -132,8 +124,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "MassTransit": {
               "target": "Package",
@@ -141,7 +133,7 @@
             },
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[6.0.1, )"
             }
           },
           "imports": [
@@ -160,40 +152,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\HotelService.Domain.csproj": {
+    "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\HotelService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\HotelService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\HotelService.Domain.csproj",
         "projectName": "HotelService.Domain",
-        "projectPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\HotelService.Domain.csproj",
-        "packagesPath": "C:\\Users\\Djokic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\HotelService.Domain.csproj",
+        "packagesPath": "C:\\Users\\Stefan Djokic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Stefan Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\Saga.Shared.csproj": {
-                "projectPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\Saga.Shared.csproj"
+              "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\Saga.Shared.csproj": {
+                "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\Saga.Shared.csproj"
               }
             }
           }
@@ -205,8 +193,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -223,43 +211,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Infrastructure\\HotelService.Infrastructure.csproj": {
+    "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Infrastructure\\HotelService.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Infrastructure\\HotelService.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Infrastructure\\HotelService.Infrastructure.csproj",
         "projectName": "HotelService.Infrastructure",
-        "projectPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Infrastructure\\HotelService.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Djokic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Infrastructure\\HotelService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Stefan Djokic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Stefan Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Application\\HotelService.Application.csproj": {
-                "projectPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Application\\HotelService.Application.csproj"
+              "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Application\\HotelService.Application.csproj": {
+                "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Application\\HotelService.Application.csproj"
               },
-              "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\HotelService.Domain.csproj": {
-                "projectPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\HotelService.Domain.csproj"
+              "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\HotelService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\HotelService.Domain.csproj"
               }
             }
           }
@@ -271,36 +255,40 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.16, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.16, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.16, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.16, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.16, )"
             }
           },
           "imports": [
@@ -319,37 +307,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Core\\Saga.Core.csproj": {
+    "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Core\\Saga.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Core\\Saga.Core.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Core\\Saga.Core.csproj",
         "projectName": "Saga.Core",
-        "projectPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Core\\Saga.Core.csproj",
-        "packagesPath": "C:\\Users\\Djokic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Core\\obj\\",
+        "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Core\\Saga.Core.csproj",
+        "packagesPath": "C:\\Users\\Stefan Djokic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Stefan Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -360,8 +344,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "MassTransit": {
               "target": "Package",
@@ -400,40 +384,36 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\Saga.Shared.csproj": {
+    "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\Saga.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\Saga.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\Saga.Shared.csproj",
         "projectName": "Saga.Shared",
-        "projectPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\Saga.Shared.csproj",
-        "packagesPath": "C:\\Users\\Djokic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\obj\\",
+        "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\Saga.Shared.csproj",
+        "packagesPath": "C:\\Users\\Stefan Djokic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Stefan Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Core\\Saga.Core.csproj": {
-                "projectPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Core\\Saga.Core.csproj"
+              "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Core\\Saga.Core.csproj": {
+                "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Core\\Saga.Core.csproj"
               }
             }
           }
@@ -445,12 +425,16 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "MassTransit": {
               "target": "Package",
               "version": "[8.0.5, )"
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -469,7 +453,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

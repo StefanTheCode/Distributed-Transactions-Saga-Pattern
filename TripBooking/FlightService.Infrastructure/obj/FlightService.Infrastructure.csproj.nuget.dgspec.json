@@ -1,39 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Infrastructure\\FlightService.Infrastructure.csproj": {}
+    "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Infrastructure\\FlightService.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Application\\FlightService.Application.csproj": {
+    "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Application\\FlightService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Application\\FlightService.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Application\\FlightService.Application.csproj",
         "projectName": "FlightService.Application",
-        "projectPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Application\\FlightService.Application.csproj",
-        "packagesPath": "C:\\Users\\Djokic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Application\\obj\\",
+        "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Application\\FlightService.Application.csproj",
+        "packagesPath": "C:\\Users\\Stefan Djokic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Application\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Stefan Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Domain\\FlightService.Domain.csproj": {
-                "projectPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Domain\\FlightService.Domain.csproj"
+              "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Domain\\FlightService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Domain\\FlightService.Domain.csproj"
               }
             }
           }
@@ -45,8 +41,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "MediatR": {
               "target": "Package",
@@ -58,7 +54,7 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.16, )"
             }
           },
           "imports": [
@@ -77,37 +73,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Domain\\FlightService.Domain.csproj": {
+    "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Domain\\FlightService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Domain\\FlightService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Domain\\FlightService.Domain.csproj",
         "projectName": "FlightService.Domain",
-        "projectPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Domain\\FlightService.Domain.csproj",
-        "packagesPath": "C:\\Users\\Djokic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Domain\\obj\\",
+        "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Domain\\FlightService.Domain.csproj",
+        "packagesPath": "C:\\Users\\Stefan Djokic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Domain\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Stefan Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -118,8 +110,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -136,43 +128,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Infrastructure\\FlightService.Infrastructure.csproj": {
+    "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Infrastructure\\FlightService.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Infrastructure\\FlightService.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Infrastructure\\FlightService.Infrastructure.csproj",
         "projectName": "FlightService.Infrastructure",
-        "projectPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Infrastructure\\FlightService.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Djokic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Infrastructure\\FlightService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Stefan Djokic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Stefan Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Application\\FlightService.Application.csproj": {
-                "projectPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Application\\FlightService.Application.csproj"
+              "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Application\\FlightService.Application.csproj": {
+                "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Application\\FlightService.Application.csproj"
               },
-              "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Domain\\FlightService.Domain.csproj": {
-                "projectPath": "C:\\Users\\Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Domain\\FlightService.Domain.csproj"
+              "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Domain\\FlightService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Domain\\FlightService.Domain.csproj"
               }
             }
           }
@@ -184,32 +172,40 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            },
+            "Microsoft.Bcl.AsyncInterfaces": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.16, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.16, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.16, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.16, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[5.0.17, )"
+              "version": "[6.0.16, )"
             }
           },
           "imports": [
@@ -228,7 +224,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

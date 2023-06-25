@@ -52,7 +52,7 @@ namespace FlightService.Consumer
                                     e.Consumer(() => new CreateFlightBookingConsumer(context));
                                 });
 
-                                cfg.ReceiveEndpoint(nameof(RollbackCarBookingEvent), e =>
+                                cfg.ReceiveEndpoint(nameof(RollbackFlightBookingEvent), e =>
                                 {
                                     e.Consumer(() => new RollbackFlightBookingConsumer(context));
                                 });

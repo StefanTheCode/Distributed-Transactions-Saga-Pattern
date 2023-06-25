@@ -1,30 +1,15 @@
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\bin\Debug\net5.0\Saga.Shared.deps.json
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\bin\Debug\net5.0\Saga.Shared.dll
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\bin\Debug\net5.0\Saga.Shared.pdb
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\bin\Debug\net5.0\Saga.Core.dll
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\bin\Debug\net5.0\Saga.Core.pdb
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.csproj.AssemblyReference.cache
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.AssemblyInfoInputs.cache
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.AssemblyInfo.cs
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.csproj.CoreCompileInputs.cache
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.csproj.CopyComplete
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.dll
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\refint\Saga.Shared.dll
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.pdb
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\ref\Saga.Shared.dll
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\bin\Debug\net5.0\Saga.Shared.deps.json
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\bin\Debug\net5.0\Saga.Shared.dll
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\bin\Debug\net5.0\Saga.Shared.pdb
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\bin\Debug\net5.0\Saga.Core.dll
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\bin\Debug\net5.0\Saga.Core.pdb
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.csproj.AssemblyReference.cache
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.AssemblyInfoInputs.cache
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.AssemblyInfo.cs
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.csproj.CoreCompileInputs.cache
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.csproj.CopyComplete
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.dll
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\refint\Saga.Shared.dll
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.pdb
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\ref\Saga.Shared.dll
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\bin\Debug\net5.0\Saga.Shared.deps.json
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\bin\Debug\net5.0\Saga.Shared.dll
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\bin\Debug\net5.0\Saga.Shared.pdb
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\bin\Debug\net5.0\Saga.Core.dll
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\bin\Debug\net5.0\Saga.Core.pdb
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.csproj.AssemblyReference.cache
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.AssemblyInfoInputs.cache
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.AssemblyInfo.cs
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.csproj.CopyComplete
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.dll
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\refint\Saga.Shared.dll
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\Saga.Shared.pdb
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\Saga.Shared\obj\Debug\net5.0\ref\Saga.Shared.dll

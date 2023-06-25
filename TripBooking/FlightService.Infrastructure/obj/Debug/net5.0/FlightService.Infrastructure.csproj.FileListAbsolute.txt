@@ -1,40 +1,20 @@
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Infrastructure.deps.json
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Infrastructure.runtimeconfig.json
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Infrastructure.runtimeconfig.dev.json
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Infrastructure.dll
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Infrastructure.pdb
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Application.dll
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Domain.dll
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Application.pdb
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Domain.pdb
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.csproj.AssemblyReference.cache
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.AssemblyInfoInputs.cache
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.AssemblyInfo.cs
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.csproj.CoreCompileInputs.cache
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.csproj.CopyComplete
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.dll
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\refint\FlightService.Infrastructure.dll
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.pdb
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.genruntimeconfig.cache
-C:\Users\Stefan Djokic\Desktop\Projects\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\ref\FlightService.Infrastructure.dll
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Infrastructure.deps.json
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Infrastructure.runtimeconfig.json
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Infrastructure.runtimeconfig.dev.json
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Infrastructure.dll
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Infrastructure.pdb
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Application.dll
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Domain.dll
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Application.pdb
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Domain.pdb
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.csproj.AssemblyReference.cache
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.AssemblyInfoInputs.cache
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.AssemblyInfo.cs
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.csproj.CoreCompileInputs.cache
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.csproj.CopyComplete
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.dll
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\refint\FlightService.Infrastructure.dll
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.pdb
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.genruntimeconfig.cache
-C:\Users\Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\ref\FlightService.Infrastructure.dll
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Infrastructure.deps.json
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Infrastructure.runtimeconfig.json
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Infrastructure.runtimeconfig.dev.json
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Infrastructure.dll
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Infrastructure.pdb
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Application.dll
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Domain.dll
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Application.pdb
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\bin\Debug\net5.0\FlightService.Domain.pdb
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.AssemblyInfo.cs
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.csproj.CopyComplete
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.dll
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\refint\FlightService.Infrastructure.dll
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.pdb
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\FlightService.Infrastructure.genruntimeconfig.cache
+C:\Users\Stefan Djokic\Desktop\Personal\Distributed-Transactions-Saga-Pattern\TripBooking\FlightService.Infrastructure\obj\Debug\net5.0\ref\FlightService.Infrastructure.dll

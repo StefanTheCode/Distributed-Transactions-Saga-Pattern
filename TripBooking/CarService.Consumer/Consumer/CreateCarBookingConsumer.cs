@@ -25,7 +25,7 @@ namespace CarService.Consumer.Consumer
             //Check dates - if not available publish Failed
             //Publish Created/Create Car Booking
 
-            Console.WriteLine($"{DateTime.Now.ToString("HH:mm:ss.ffffff")}: Let's create Car Booking for Booking ID - " + context.Message.BookingId);
+            Console.WriteLine($"ColID: {context.CorrelationId} - {DateTime.Now.ToString("HH:mm:ss.ffffff")}: Let's create Car Booking for Booking ID - " + context.Message.BookingId);
 
             Rent rent = new Rent
             {
@@ -41,18 +41,24 @@ namespace CarService.Consumer.Consumer
             _dbContext.Rents.Add(rent);
             _dbContext.SaveChanges();
 
-            await context.Publish<IHotelBookingFailedEvent>(new
+            if (false)
             {
-                CreatedDate = DateTime.Now,
-                context.Message.BookingId
-            });
-
-
-            //await context.Publish<IHotelBookingCompletedEvent>(new
-            //{
-            //    CreatedDate = DateTime.Now,
-            //    context.Message.BookingId
-            //});
+                await context.Publish<IHotelBookingCompletedEvent>(new
+                {
+                    CreatedDate = DateTime.Now,
+                    context.Message.BookingId,
+                    CorrelationId = context.Message.CorrelationId
+                });
+            }
+            else
+            {
+                await context.Publish<IHotelBookingFailedEvent>(new
+                {
+                    CreatedDate = DateTime.Now,
+                    context.Message.BookingId,
+                    CorrelationId = context.Message.CorrelationId
+                });
+            }
         }
     }
 }

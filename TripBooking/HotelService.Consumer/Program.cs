@@ -1,4 +1,5 @@
-﻿using HotelService.Consumer.Consumer;
+﻿using FlightService.Consumer.Consumer;
+using HotelService.Consumer.Consumer;
 using HotelService.Infrastructure.Persistence;
 using MassTransit;
 using Microsoft.EntityFrameworkCore;
@@ -8,6 +9,7 @@ using Microsoft.Extensions.Hosting;
 using Saga.Core.Concrete.Brokers;
 using Saga.Core.MessageBrokers.Concrete;
 using Saga.Shared.Consumers.Models.Booking;
+using Saga.Shared.Consumers.Models.Flight;
 using System;
 
 namespace HotelService.Consumer
@@ -45,19 +47,26 @@ namespace HotelService.Consumer
                     var bus = BusConfiguration.Instance
                             .ConfigureBus(massTransitSettings, (cfg) =>
                             {
+                                var context = services.BuildServiceProvider().GetService<HotelDbContext>();
+
                                 cfg.ReceiveEndpoint(nameof(CreatedBookingEvent), e =>
                                 {
-                                    e.Consumer(() => new HotelBookingCreatedConsumer());
+                                    e.Consumer(() => new HotelBookingCreatedConsumer(context));
                                 });
 
                                 cfg.ReceiveEndpoint(nameof(HotelBookingCompletedEvent), e =>
                                 {
-                                    e.Consumer(() => new HotelBookingCompletedConsumer());
+                                    e.Consumer(() => new HotelBookingCompletedConsumer(context));
                                 });
 
                                 cfg.ReceiveEndpoint(nameof(HotelBookingFailedEvent), e =>
                                 {
-                                    e.Consumer(() => new HotelBookingFailedConsumer());
+                                    e.Consumer(() => new HotelBookingFailedConsumer(context));
+                                });
+
+                                cfg.ReceiveEndpoint(nameof(RollbackHotelBookingEvent), e =>
+                                {
+                                    e.Consumer(() => new RollbackHotelBookingConsumer(context));
                                 });
                             });
 

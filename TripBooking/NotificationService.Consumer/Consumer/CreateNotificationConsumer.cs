@@ -14,7 +14,7 @@ namespace NotificationService.Consumer
         public async Task Consume(ConsumeContext<ICreateNotificationEvent> context)
         {
             //Publish event
-            Console.WriteLine($"{DateTime.Now.ToString("HH:mm:ss.ffffff")}: Create Notification Consumer: " + context.Message.BookingId);
+            Console.WriteLine($"ColID: {context.CorrelationId} - {DateTime.Now.ToString("HH:mm:ss.ffffff")}: Create Notification Consumer: " + context.Message.BookingId);
         }
     }
 }

@@ -9,6 +9,7 @@
       "Saga.Shared/1.0.0": {
         "dependencies": {
           "MassTransit": "8.0.5",
+          "Microsoft.Bcl.AsyncInterfaces": "5.0.0",
           "Saga.Core": "1.0.0"
         },
         "runtime": {
@@ -53,6 +54,14 @@
           "lib/netstandard2.1/MassTransit.RabbitMqTransport.dll": {
             "assemblyVersion": "8.0.5.0",
             "fileVersion": "8.0.5.0"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
           }
         }
       },
@@ -295,6 +304,13 @@
       "sha512": "sha512-RE8+Dyj15jE0qYbh5G5B2n7tWup0gC+TxLCnCQvtKNSG/ZGl+0V0J455tP0MPmBn8R5LCkAtwpDzI/0P+af3dQ==",
       "path": "masstransit.rabbitmq/8.0.5",
       "hashPath": "masstransit.rabbitmq.8.0.5.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W8DPQjkMScOMTtJbPwmPyj9c3zYSFGawDW3jwlBOOsnY+EzZFLgNQ/UMkK35JmkNOVPdCyPr2Tw7Vv9N+KA3ZQ==",
+      "path": "microsoft.bcl.asyncinterfaces/5.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/6.0.1": {
       "type": "package",

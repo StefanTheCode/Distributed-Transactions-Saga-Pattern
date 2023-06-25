@@ -25,7 +25,7 @@ namespace FlightService.Consumer.Consumer
 
         public async Task Consume(ConsumeContext<ICreateFlightBookingEvent> context)
         {
-            Console.WriteLine($"{DateTime.Now.ToString("HH:mm:ss.ffffff")}: Let's create Flight Booking for Booking ID - " + context.Message.BookingId);
+            Console.WriteLine($"ColID: {context.CorrelationId} - {DateTime.Now.ToString("HH:mm:ss.ffffff")}: Let's create Flight Booking for Booking ID - " + context.Message.BookingId);
 
             //Flight flight = new Flight
             //{
@@ -39,18 +39,24 @@ namespace FlightService.Consumer.Consumer
 
             //_dbContext.Flights.Add(flight);
 
-            //await context.Publish<ICreateCarBookingEvent>(new
-            //{
-            //    CreatedDate = DateTime.Now,
-            //    context.Message.BookingId
-            //});
-
-
-            //await context.Publish<IHotelBookingFailedEvent>(new
-            //{
-            //    CreatedDate = DateTime.Now,
-            //    context.Message.BookingId
-            //});
+            if (true)
+            {
+                await context.Publish<ICreateCarBookingEvent>(new
+                {
+                    CreatedDate = DateTime.Now,
+                    context.Message.BookingId,
+                    CorrelationId = context.Message.CorrelationId
+                });
+            }
+            else
+            {
+                await context.Publish<IHotelBookingFailedEvent>(new
+                {
+                    CreatedDate = DateTime.Now,
+                    context.Message.BookingId,
+                    CorrelationId = context.Message.CorrelationId
+                });
+            }
         }
     }
 }

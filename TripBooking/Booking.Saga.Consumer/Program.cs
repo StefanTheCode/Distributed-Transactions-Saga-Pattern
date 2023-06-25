@@ -1,4 +1,6 @@
 ﻿using MassTransit;
+using MassTransit.EntityFrameworkCoreIntegration;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -25,11 +27,13 @@ namespace Booking.Saga.Consumer
                 config.AddEnvironmentVariables();
 
                 if (args != null)
-                    config.AddCommandLine(args);
+                    config.AddCommandLine(args);    
             })
                 .ConfigureServices((hostContext, services) =>
                 {
                     services.AddOptions();
+
+                    services.AddScoped<BookingSagaDbContext>();
 
                     var p = hostContext.Configuration.GetSection("MassTransitSettings");
 
@@ -38,26 +42,40 @@ namespace Booking.Saga.Consumer
 
                     services.AddSingleton(massTransitSettings);
 
-                    var bookingSaga = new BookingStateMachine();
-                    var repo = new InMemorySagaRepository<BookingState>();
-
-                    var bus = BusConfiguration.Instance
-                    .ConfigureBus(massTransitSettings, (cfg) =>
+                    services.AddMassTransit(cfg =>
                     {
-                        cfg.ReceiveEndpoint(SagaConstants.SAGAQUEUENAME, e =>
+                        cfg.AddSagaStateMachine<BookingStateMachine, BookingState>()
+                            .EntityFrameworkRepository(r =>
+                            {
+                                r.ConcurrencyMode = ConcurrencyMode.Optimistic;
+                                r.AddDbContext<DbContext, BookingSagaDbContext>((provider, builder) =>
+                                {
+                                    builder.UseSqlServer("Server=localhost;Database=Saga;Trusted_Connection=True;Integrated Security=true;MultipleActiveResultSets=true");
+                                });
+                            });
+
+                        cfg.UsingRabbitMq((context, cfg) =>
                         {
-                            e.StateMachineSaga(bookingSaga, repo);
+                            cfg.Host(new Uri(massTransitSettings.Uri), h =>
+                            {
+                                h.Username(massTransitSettings.Username);
+                                h.Password(massTransitSettings.Password);
+                            });
+
+                            cfg.ReceiveEndpoint(SagaConstants.SAGAQUEUENAME, e =>
+                            {
+                                e.ConfigureSaga<BookingState>(context);
+                            });
                         });
                     });
 
-                    bus.StartAsync();
 
                     var _busInstance = BusConfiguration.Instance.ConfigureBus(massTransitSettings);
 
                     SendEndpoint.Endpoint = _busInstance.GetSendEndpoint(new Uri($"{massTransitSettings.Uri}/{SagaConstants.SAGAQUEUENAME}")).Result;
 
                     Console.WriteLine("Booking Saga State Machine Application started...");
-                    Console.ReadLine();
+                    //Console.ReadLine();
                 });
         }
     }
