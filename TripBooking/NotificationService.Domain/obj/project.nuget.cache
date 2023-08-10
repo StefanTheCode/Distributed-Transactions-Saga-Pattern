@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Kf6jgM98jYqZnO7O3SSfTyxurEzRFH/QnwBlnjtjvzgTGRozkcnukLNos3QOkAZgSbdTgWcJAGu+RxIcHX84mA==",
+  "dgSpecHash": "layAsDpdkeQeLqFzstyxlVOQXrgID/EsHd66QoP83qNayi5duuNfUNAVrFKzLed9ghi8jRKTSPc1kaSkgESc7w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Domain\\NotificationService.Domain.csproj",
   "expectedPackageFiles": [],
