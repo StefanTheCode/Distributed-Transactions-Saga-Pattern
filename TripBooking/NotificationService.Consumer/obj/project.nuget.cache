@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fN0ut/Dgc4ruM/4OABUT0ETtSrgtqtzoNetU3hsO2eG4c2sUP8ojB1fw62+qccVjV/MhxFvRy902YagCma2SwA==",
+  "dgSpecHash": "dye4hyJivewEovZczOFByvfnEziMhOPi/DSA/d6QtPdjYOiAdDqxkRiWf4WyiAUlr+MyTnecsENolo3XeMvJ+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Consumer\\NotificationService.Consumer.csproj",
+  "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Consumer\\NotificationService.Consumer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\masstransit\\8.0.5\\masstransit.8.0.5.nupkg.sha512",
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\masstransit.abstractions\\8.0.5\\masstransit.abstractions.8.0.5.nupkg.sha512",

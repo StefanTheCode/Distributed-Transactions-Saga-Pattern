@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sv1NwUX1+Dluam6mG8Y03hIKfB9PVZ7vwR945o4l1LNabsSOvCb39R99Kb4TTwZBbkVKRPg6c4rywBY9k18w1Q==",
+  "dgSpecHash": "uit86OGvM2csCU9xSRMRsK4nkHJCt2zZKD1wSkpU+kZTsOgaimWe001bzZmfhedsQ6YmwdwnKsO3Td05OikKDw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\Saga.Shared.csproj",
+  "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\Saga.Shared.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\masstransit\\8.0.5\\masstransit.8.0.5.nupkg.sha512",
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\masstransit.abstractions\\8.0.5\\masstransit.abstractions.8.0.5.nupkg.sha512",

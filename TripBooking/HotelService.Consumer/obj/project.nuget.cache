@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XVsZlR5R+C1DV9W2/JgYZOpVmrQRyYPncjDKMcVjHKwRWwza2PuIlFFwutREK9ian5CG4JaVnL6SYsEjIunpKg==",
+  "dgSpecHash": "C5/W2fibcywb1+Wtzy3FBc9xnxvLR3plhkBgbvc5sf2TZj+7lFd64VVOcoXCi5OXsjEbtsr6csVL3qst0c5znA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Consumer\\HotelService.Consumer.csproj",
+  "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Consumer\\HotelService.Consumer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\masstransit\\8.0.5\\masstransit.8.0.5.nupkg.sha512",
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\masstransit.abstractions\\8.0.5\\masstransit.abstractions.8.0.5.nupkg.sha512",

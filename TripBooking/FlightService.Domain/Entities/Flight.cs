@@ -1,9 +1,5 @@
-﻿using FlightService.Domain.Common;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
+using FlightService.Domain.Common;
 
 namespace FlightService.Domain.Entities
 {
@@ -14,5 +10,13 @@ namespace FlightService.Domain.Entities
         public string To { get; set; }
         public double Price { get; set; }
         public string Type { get; set; }
+        public DateTime Departure { get; set; }
+        public DateTime Return { get; set; }
+        public string DepartureTakeoffTime { get; set; }
+        public string DepartureLandingTime { get; set; }
+        public string ReturnTakeoffTime { get; set; }
+        public string ReturnLandingTime { get; set; }
+        public string AeroportName { get; set; }
+        public string Plane { get; set; }
     }
 }

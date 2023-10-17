@@ -1,5 +1,8 @@
 using CarService.Application.Common;
+using CarService.Application.Common.Model;
+using CarService.Application.Services.RentService.Query;
 using CarService.Infrastructure.Persistence;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -13,6 +16,7 @@ using Microsoft.OpenApi.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace CarService
@@ -32,7 +36,19 @@ namespace CarService
             services.AddDbContext<CarDbContext>(options =>
                      options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
+            services.AddMediatR(Assembly.GetExecutingAssembly());
+
+            services.AddScoped<IRequestHandler<Get, CarResponse>, GetHandler>();
+
             services.AddScoped(typeof(ICarDbContext), typeof(CarDbContext));
+
+            services.AddCors(opt =>
+            {
+                opt.AddPolicy("CorsPolicy", policy =>
+                {
+                    policy.AllowAnyMethod().AllowAnyHeader().WithOrigins("https://localhost:7235");
+                });
+            });
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -54,6 +70,7 @@ namespace CarService
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseCors("CorsPolicy");
 
             app.UseAuthorization();
 

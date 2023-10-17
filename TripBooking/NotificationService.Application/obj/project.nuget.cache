@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DiS9s5ywp5lzonwhvH8gVdewKt+hvDjsm0logZQK8FmEZ8qHoOWueh8dF2l6TcLvO0QqcZZ/A0BlUW0LoX5OEA==",
+  "dgSpecHash": "2TIOd5nfJ016S8JoMs6YoDLZDv3pn/pbFEp6cpWZdbcKSYwx6+yftgKR6DapHg8jwG62FfJ/E55I+eGAU3HI6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Application\\NotificationService.Application.csproj",
+  "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Application\\NotificationService.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

@@ -1,6 +1,7 @@
 using HotelService.Application.Common;
 using HotelService.Application.Common.Models;
 using HotelService.Application.Services.BookingService.Command;
+using HotelService.Application.Services.BookingService.Query;
 using HotelService.Infrastructure.Persistence;
 using MassTransit;
 using MediatR;
@@ -13,6 +14,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Saga.Core.Concrete.Brokers;
 using Saga.Core.DependencyRegisters;
+using System.Collections.Generic;
 using System.Reflection;
 
 namespace HotelService
@@ -41,10 +43,19 @@ namespace HotelService
             services.AddMediatR(Assembly.GetExecutingAssembly());
 
             services.AddScoped<IRequestHandler<Create, Result>, CreateHandler>();
+            services.AddScoped<IRequestHandler<GetByDestination, HotelResponse>, GetByDestinationHandler>();
 
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "HotelService", Version = "v1" });
+            });
+
+            services.AddCors(opt =>
+            {
+                opt.AddPolicy("CorsPolicy", policy =>
+                {
+                    policy.AllowAnyMethod().AllowAnyHeader().WithOrigins("https://localhost:7235");
+                });
             });
 
             services.AddControllers();
@@ -63,6 +74,8 @@ namespace HotelService
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors("CorsPolicy");
 
             app.UseAuthorization();
 

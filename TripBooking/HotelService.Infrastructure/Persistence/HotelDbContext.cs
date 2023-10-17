@@ -15,6 +15,7 @@ namespace HotelService.Infrastructure.Persistence
         }
 
         public DbSet<Booking> Bookings { get; set; }
+        public DbSet<Hotel> Hotels { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

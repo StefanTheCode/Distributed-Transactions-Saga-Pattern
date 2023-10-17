@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FVGvUvvaPJOJ70GzXjXqHaZv1jVbnqz4MrLKx8RezKqyE38+A+bAgBy5rUeakNI8eMYg4Bzeuxfphu+Ff81EbA==",
+  "dgSpecHash": "R6wyYua+Eu1qINtBSI0wbzWu61G04CFUGWat1n/kMvKJG5Y+6Tpw5GHc40GJcIsJGrkbi8KFjcJdfZckt3noRg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Infrastructure\\HotelService.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Infrastructure\\HotelService.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\masstransit\\8.0.5\\masstransit.8.0.5.nupkg.sha512",

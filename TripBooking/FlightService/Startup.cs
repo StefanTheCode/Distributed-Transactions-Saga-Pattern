@@ -1,5 +1,10 @@
+using System.Collections.Generic;
+using System.Reflection;
 using FlightService.Application.Common;
+using FlightService.Application.Common.Models;
+using FlightService.Application.Services.FlightService.Query;
 using FlightService.Infrastructure.Persistence;
+using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -27,6 +32,18 @@ namespace FlightService
 
             services.AddScoped(typeof(IFlightDbContext), typeof(FlightDbContext));
 
+            services.AddMediatR(Assembly.GetExecutingAssembly());
+
+            services.AddScoped<IRequestHandler<GetAll, FlightResponse>, GetAllHandler>();
+
+            services.AddCors(opt =>
+            {
+                opt.AddPolicy("CorsPolicy", policy =>
+                {
+                    policy.AllowAnyMethod().AllowAnyHeader().WithOrigins("https://localhost:7235");
+                });
+            });
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -48,6 +65,8 @@ namespace FlightService
 
             app.UseRouting();
 
+            app.UseCors("CorsPolicy");
+            
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

@@ -1,8 +1,289 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
+    Layout = null;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Trip Booking</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link type="text/css" rel="stylesheet" href="/css/style.css" />
+</head>
+
+<body>
+    <div id="booking" class="section">
+        <div class="section-center" id="bookHotelForm" style="display: none">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" style="margin-top: 50px">
+                        <div class="booking-form">
+                            <h2 class="text-center" style="margin-top: -20px">For the selected...</h2>
+                            <div class="row" style="margin-top: 50px">
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <span class="form-label" >From</span>
+                                        <input class="form-control" type="text" id="bookingFromInputSelected" disabled>
+                                    </div>
+                                    <div class="form-group">
+                                        <span class="form-label">Your Destination</span>
+                                        <input class="form-control" type="text" id="bookingDestinationInputSelected" disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <span class="form-label">Check In</span>
+                                        <input class="form-control" id="bookingCheckInInputSelected" type="date" disabled>
+                                    </div>
+                                    <div class="form-group">
+                                        <span class="form-label">Check out</span>
+                                        <input class="form-control" type="date" id="bookingCheckOutInputSelected" disabled>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <span class="form-label">Rooms</span>
+                                        <select class="form-control" disabled id="bookingRoomsInputSelected">
+                                            @for (int i = 1; i <= 10; i++)
+                                            {
+                                                <option value="@i">@i</option>
+                                            }
+                                        </select>
+                                        <span class="select-arrow"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <span class="form-label">Adults</span>
+                                        <select class="form-control" disabled id="bookingAdultsInputSelected">
+                                            @for (int i = 1; i <= 10; i++)
+                                            {
+                                                <option value="@i">@i</option>
+                                            }
+                                        </select>
+                                        <span class="select-arrow"></span>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <span class="form-label">Children</span>
+                                        <select class="form-control" disabled id="bookingChildrenInputSelected">
+                                            @for (int i = 1; i <= 4; i++)
+                                            {
+                                                <option value="@i">@i</option>
+                                            }
+                                        </select>
+                                        <span class="select-arrow"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <h2 class="text-center" style="margin-top: 20px; margin-bottom: 30px">We offer you...</h2>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                   <h3 class="text-center">Flight</h3>
+                                   <div class="row" style="margin-top: 40px">
+                                       <div class="col-md-12 text-center">
+                                           <div class="row">
+                                                <div class="col-md-4"><h4 class="text-primary"><b id="foundFlightFrom"></b></h4></div>
+                                                <div class="col-md-4"><h4>---------></h4></div>
+                                                <div class="col-md-4"><h4 class="text-primary"><b id="foundFlightDestination"></b></h4></div>
+                                           </div>
+                                            <div class="row">
+                                                <div class="col-md-4"><h5><b id="departureTakeoffTime"></b></h5></div>
+                                                <div class="col-md-4"><h6>2h 40min</h6></div>
+                                                <div class="col-md-4"><h5><b id="departureLandingTime"></b></h5></div>
+                                           </div>
+                                            <div class="row" style="margin-top: 20px">
+                                                <div class="col-md-4"><h4 class="text-primary"><b id="foundFlightDestinationReturn"></b></h4></div>
+                                                <div class="col-md-4"><h4>---------></h4></div>
+                                                <div class="col-md-4"><h4 class="text-primary"><b id="foundFlightFromReturn"></b></h4></div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-4"><h5><b id="returnTakeoffTime"></b></h5></div>
+                                                <div class="col-md-4"><h6>2h 25min</h6></div>
+                                                <div class="col-md-4"><h5><b id="returnLandingTime"></b></h5></div>
+                                            </div>
+                                            <div class="row" style="margin-top: 30px">
+                                                <div class="col-md-12">
+                                                    <h5 class="text-success"><b>Price: <span id="foundFlightPrice"></span></b></h5>
+                                                </div>
+                                                <div class="col-md-12" style="margin-top: 20px">
+                                                    <h5>Details</h5>
+                                                </div>
+                                          
+                                                <div class="col-md-12">
+                                                    <h6>Airport: <br /><span><b id="foundFlightAirport"> </b></span></h6>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <h6>Plane: <br /><span><b id="foundFlightPlaneCompany"></b></span></h6>
+                                                </div>
+                                            </div>
+                                       </div>
+                                   </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <h3 class="text-center">Hotel</h3>
+                                    <div class="row" style="margin-top: 40px">
+                                        <div class="col-md-7">
+                                            <img width="100%" id="foundHotelPhoto"/>
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h5 id="foundHotelName"></h5>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <h5 class="text-success"><b>Price: <span id="foundHotelPrice"></span></b></h5>
+                                                </div>
+                                                <div class="col-md-12" style="margin-top: 10px">
+                                                    <h6>Address:</h6>
+                                                    <h6 id="foundHotelAddress"></h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row" style="margin-top: 10px">
+                                        <div class="col-md-12">
+                                            <h6 style="text-align: justify" id="foundHotelDescription"></h6>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <h3 class="text-center">Car (Taxi)</h3>
+                                    <div class="row" style="margin-top: 40px">
+                                        <div class="col-md-7">
+                                            <img width="100%" id="foundCarPhoto" />
+                                        </div>
+                                        <div class="col-md-5">
+                                            <div class="row">
+                                                <div class="col-md-12">
+                                                    <h5 id="foundCarName"></h5>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <h6>Agency: <span id="foundCarAgency"></span></h6>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <h5 class="text-success"><b>Price: <span id="foundCarPrice"></span></b></h5>
+                                                </div>
+                                                <div class="col-md-12" style="margin-top: 10px">
+                                                    <h6>PickUp Location:</h6>
+                                                    <h6 id="foundCarPickUpLocation"></h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row" style="margin-top: 10px">
+                                        <div class="col-md-12">
+                                            <h6>Departure PickUp Time: <b><span id="foundCarDeparturePickUp"></span></b>  </h6>
+                                            <h6>Return PickUp Time: <b><span id="foundCarReturnPickUp"></span> </b> </h6>
+                                            <h6>Maximum Number of Passengers: <span id="foundCarMaxPassengers"></span> </h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 text-center" style="margin-top: 50px">
+                                    <div class="form-btn">
+                                        <button class="submit-btn" onclick="Site.getHotels()">Check hotel</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section-center" id="startFrom" style="display: block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-7 col-md-push-5">
+                        <div class="booking-cta">
+                            <h1>Make your reservation</h1>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi facere, soluta magnam consectetur molestias itaque
+                                ad sint fugit architecto incidunt iste culpa perspiciatis possimus voluptates aliquid consequuntur cumque quasi.
+                                Perspiciatis.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-5 col-md-pull-7">
+                        <div class="booking-form">
+                                <div class="form-group">
+                                    <span class="form-label" >From</span>
+                                    <input class="form-control" type="text" id="bookingFromInput" required placeholder="Enter your current location">
+                                </div>
+                                <div class="form-group">
+                                    <span class="form-label" >Your Destination</span>
+                                    <input class="form-control" type="text" id="bookingDestinationInput" required placeholder="Enter a destination or hotel name">
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <span class="form-label" i>Check In</span>
+                                            <input class="form-control" id="bookingCheckInInput" type="date" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <span class="form-label">Check out</span>
+                                            <input class="form-control" type="date" id="bookingCheckOutInput" required>
+                                        </div>
+                                    </div>
+                                </div>
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <span class="form-label">Rooms</span>
+                                        <select class="form-control" id="bookingRoomsInput">
+                                            @for (int i = 1; i <= 10; i++)
+                                            {
+                                                <option value="@i">@i</option>
+                                            }
+                                        </select>
+                                        <span class="select-arrow"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <span class="form-label">Adults</span>
+                                        <select class="form-control" id="bookingAdultsInput">
+                                            @for (int i = 1; i <= 10; i++)
+                                            {
+                                                <option value="@i">@i</option>
+                                            }
+                                        </select>
+                                        <span class="select-arrow"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="form-group">
+                                        <span class="form-label">Children</span>
+                                        <select class="form-control" id="bookingChildrenInput">
+                                            @for (int i = 0; i <= 4; i++)
+                                            {
+                                                <option value="@i">@i</option>
+                                            }
+                                        </select>
+                                        <span class="select-arrow"></span>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="form-btn">
+                                    <button type="button" onclick="Site.checkAvailability(event)" class="submit-btn">Check availability</button>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

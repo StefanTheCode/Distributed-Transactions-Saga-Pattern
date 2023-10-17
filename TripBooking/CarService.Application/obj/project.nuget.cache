@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WIW5mPib0+kAeWiG05qwjSFHGrXRu2EH2yCUKS562na/0b7MVtpnM+2HB0dL0ziJFAMsFlP8ZpU3sdaHcqyrnQ==",
+  "dgSpecHash": "XeSrAvNiFQ3qDiHqaRoSDEgF6A0DV896QJ9/ls9isHZoPeKyjXyZO/w8Z5WJ/dZNL9pRQ7F9r2u50H0q6Zvmhw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\CarService.Application\\CarService.Application.csproj",
+  "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\CarService.Application\\CarService.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",

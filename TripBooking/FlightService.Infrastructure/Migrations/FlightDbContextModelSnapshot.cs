@@ -6,6 +6,8 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
+#nullable disable
+
 namespace FlightService.Infrastructure.Migrations
 {
     [DbContext(typeof(FlightDbContext))]
@@ -15,21 +17,35 @@ namespace FlightService.Infrastructure.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "6.0.16")
-                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                .HasAnnotation("Relational:MaxIdentifierLength", 128);
+
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
             modelBuilder.Entity("FlightService.Domain.Entities.Flight", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<string>("AeroportName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("Created")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Departure")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("DepartureLandingTime")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("DepartureTakeoffTime")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("From")
@@ -41,8 +57,20 @@ namespace FlightService.Infrastructure.Migrations
                     b.Property<string>("LastModifiedBy")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Plane")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<double>("Price")
                         .HasColumnType("float");
+
+                    b.Property<DateTime>("Return")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ReturnLandingTime")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ReturnTakeoffTime")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("To")
                         .HasColumnType("nvarchar(max)");

@@ -32,9 +32,9 @@ namespace CarService.Consumer.Consumer
                 Agency = "Agencija",
                 Created = DateTime.Now,
                 CreatedBy = "TEST",
-                DriverAge = 20,
-                DropOffDate = DateTime.Now.AddDays(5),
-                PickUpDate = DateTime.Now,
+                MinimumDriverAge = 20,
+                //DropOffTime = DateTime.Now.AddDays(5).ToString(),
+                //PickUpTime = DateTime.Now.ToString(),
                 PickUpLocation = "Belgija"
             };
 

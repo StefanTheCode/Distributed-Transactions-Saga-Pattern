@@ -6,6 +6,8 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
+#nullable disable
+
 namespace CarService.Infrastructure.Migrations
 {
     [DbContext(typeof(CarDbContext))]
@@ -15,18 +17,32 @@ namespace CarService.Infrastructure.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("ProductVersion", "6.0.16")
-                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                .HasAnnotation("Relational:MaxIdentifierLength", 128);
+
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
             modelBuilder.Entity("CarService.Domain.Entities.Rent", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
                     b.Property<string>("Agency")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CarDescription")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CarName")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CarPhoto")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("City")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("Created")
@@ -35,10 +51,7 @@ namespace CarService.Infrastructure.Migrations
                     b.Property<string>("CreatedBy")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("DriverAge")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("DropOffDate")
+                    b.Property<DateTime>("DeparturePickUp")
                         .HasColumnType("datetime2");
 
                     b.Property<DateTime?>("LastModified")
@@ -47,11 +60,17 @@ namespace CarService.Infrastructure.Migrations
                     b.Property<string>("LastModifiedBy")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("PickUpDate")
-                        .HasColumnType("datetime2");
+                    b.Property<int>("MaximumNumOfPassengers")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MinimumDriverAge")
+                        .HasColumnType("int");
 
                     b.Property<string>("PickUpLocation")
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("ReturnPickUp")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 

@@ -33,7 +33,7 @@ namespace Booking.Saga.Consumer
                 {
                     services.AddOptions();
 
-                    services.AddScoped<BookingSagaDbContext>();
+                    services.AddSingleton<BookingSagaDbContext>();
 
                     var p = hostContext.Configuration.GetSection("MassTransitSettings");
 

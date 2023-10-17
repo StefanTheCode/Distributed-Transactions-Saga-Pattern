@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kQZ+suSmOC1rGbq66OC8SrQXaekrHhlm91Eq5tF/mA4NRtreQ6b0elzzwL7+nEI9IRewCoP4BgjzbdNfS+R2uQ==",
+  "dgSpecHash": "W57mfz0QhuZV75TzTjNN8PMx0/8vFZKHsJZa5rOVMKG5qh/x9s+s2oNFAqWqNkarrlwSio2TgS2hxmtknIMqNw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService\\NotificationService.csproj",
+  "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService\\NotificationService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",

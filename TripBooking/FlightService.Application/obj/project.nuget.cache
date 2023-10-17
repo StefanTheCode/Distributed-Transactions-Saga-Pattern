@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vsdafa7WLbHHLCW1JpOZCjlg2LXa722ktzP1GJt1dHvR9wDFksZzNxEmZG0Dp6OI2uBwP8gt0A7rRIsXTlX8gQ==",
+  "dgSpecHash": "5zkZUPqDSGZAhzNwJnS3vH8/KncthC88XmXHKvopQ9PAE9vc1SOAUuOHr+u24HeagkyZSJz5u7baGhHDhFvDbQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Application\\FlightService.Application.csproj",
+  "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Application\\FlightService.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
