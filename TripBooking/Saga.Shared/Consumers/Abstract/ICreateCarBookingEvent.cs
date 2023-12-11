@@ -6,9 +6,9 @@ namespace Saga.Shared.Consumers.Abstract
     public interface ICreateCarBookingEvent
     {
         int BookingId { get; }
-        int FlightId { get; }
+        int FlightDetailsId { get; }
         Guid CorrelationId { get; }
-        int CarId { get; }
+        int CarDetailsId { get; }
         DateTime CreatedDate { get; }
     }
 }

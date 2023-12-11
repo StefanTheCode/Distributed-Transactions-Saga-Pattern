@@ -18,6 +18,8 @@ namespace Booking.Saga.Consumer
                     .HasMaxLength(64);
                 b.Property(x => x.BookingId)
                     .HasMaxLength(32);
+                b.Property(x => x.IsSuccessful);
+                b.Property(x => x.Message);
                 // Define properties for all other fields in your BookingState
             });
 

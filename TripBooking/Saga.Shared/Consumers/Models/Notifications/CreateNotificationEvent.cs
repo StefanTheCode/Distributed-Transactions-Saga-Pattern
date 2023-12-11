@@ -17,5 +17,9 @@ namespace Saga.Shared.Consumers.Models.Notifications
         public DateTime CreatedDate { get; set; }
         public int BookingId => _bookingSagaModel.BookingId;
         public Guid CorrelationId => _bookingSagaModel.CorrelationId;
+        public int FlightDetailsId => _bookingSagaModel.FlightDetailsId;
+        public int CarDetailsId => _bookingSagaModel.CarDetailsId;
+        public bool IsSuccessful => _bookingSagaModel.IsSuccessful;
+        public string Message => _bookingSagaModel.Message;
     }
 }

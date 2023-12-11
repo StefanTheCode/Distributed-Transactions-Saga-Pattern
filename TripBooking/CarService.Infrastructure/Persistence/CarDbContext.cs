@@ -20,6 +20,7 @@ namespace CarService.Infrastructure.Persistence
         }
 
         public DbSet<Rent> Rents { get; set; }
+        public DbSet<Booking> Bookings { get; set; }
 
         public override async Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
         {

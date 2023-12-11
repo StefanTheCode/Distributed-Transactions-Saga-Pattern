@@ -4,6 +4,7 @@ using HotelService.Domain.Entities;
 using HotelService.Domain.Enums;
 using MassTransit;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
 using Saga.Core.Concrete.Brokers;
 using Saga.Core.Constants;
 using Saga.Core.MessageBrokers.Concrete;
@@ -18,13 +19,9 @@ namespace HotelService.Application.Services.BookingService.Command
 {
     public class Create : IRequest<Result>
     {
-        public string Place { get; set; }
-        public string HotelName { get; set; }
-        public DateTime CheckIn { get; set; }
-        public DateTime CheckOut { get; set; }
-        public int AdultsNumber { get; set; }
-        public int ChildrenNumber { get; set; }
-        public int RoomNumber { get; set; }
+        public int HotelDetailsId { get; set; }
+        public int FlightDetailsId { get; set; }
+        public int CarDetailsId { get; set; }
     }
 
     public class CreateHandler : IRequestHandler<Create, Result>
@@ -44,30 +41,26 @@ namespace HotelService.Application.Services.BookingService.Command
 
         public async Task<Result> Handle(Create request, CancellationToken cancellationToken)
         {
-            //Introduce Mapper
+            var existingHotel = await _dbContext.Hotels.FirstOrDefaultAsync(x => x.Id == request.HotelDetailsId);
+
+            if (existingHotel is null) return Result.Failure(new List<string> { "Selected Hotel booking is not available anymore." });
+
             Booking booking = new Booking
             {
-                AdultsNumber = request.AdultsNumber,
-                RoomNumber = request.RoomNumber,
-                CheckIn = request.CheckIn,
-                CheckOut = request.CheckOut,
-                ChildrenNumber = request.ChildrenNumber,
-                HotelName = request.HotelName,
-                Place = request.Place,
-                Status = BookingStatus.WaitingForFlight
+                HotelBokingDetailsId = existingHotel.Id
             };
 
             await _dbContext.Bookings.AddAsync(booking);
 
-            if (await _dbContext.SaveChangesAsync(cancellationToken) < 1) throw new Exception("Create Booking Failed!"); //publish event?
+            if (await _dbContext.SaveChangesAsync(cancellationToken) < 1) return Result.Failure(new List<string> { "There is an error with adding a booking." });
 
             await _sendEndpoint.Send(new BookingRequestEvent
             {
                 BookingId = booking.Id,
                 CreatedDate = DateTime.Now,
                 Email = "UsersEmail",
-                From = booking.CheckIn,
-                To = booking.CheckOut
+                FlightDetailsId = request.FlightDetailsId,
+                CarDetailsId = request.CarDetailsId
             });
 
             return await _dbContext.SaveChangesAsync(cancellationToken) == 1 ?

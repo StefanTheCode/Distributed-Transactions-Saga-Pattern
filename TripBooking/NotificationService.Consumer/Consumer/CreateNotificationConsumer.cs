@@ -13,8 +13,18 @@ namespace NotificationService.Consumer
 
         public async Task Consume(ConsumeContext<ICreateNotificationEvent> context)
         {
-            //Publish event
-            Console.WriteLine($"ColID: {context.CorrelationId} - {DateTime.Now.ToString("HH:mm:ss.ffffff")}: Create Notification Consumer: " + context.Message.BookingId);
+            Console.WriteLine("____________________________________________________");
+            Console.WriteLine($"\nTime: {DateTime.Now.ToString("HH:mm:ss.ffffff")}");
+            Console.WriteLine();
+            Console.WriteLine($"Correlation Id = {context.CorrelationId}");
+            Console.WriteLine($"Booking Id = {context.Message.BookingId}");
+            Console.WriteLine($"Message I got: \n");
+
+            Console.ForegroundColor = context.Message.IsSuccessful ? ConsoleColor.Green : ConsoleColor.Red;
+            Console.WriteLine($"{context.Message.Message}");
+            Console.ForegroundColor = ConsoleColor.White;
+
+            Console.WriteLine();
         }
     }
 }

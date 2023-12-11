@@ -22,6 +22,36 @@ namespace CarService.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("CarService.Domain.Entities.Booking", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("CarDetailsId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime?>("LastModified")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("LastModifiedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CarDetailsId");
+
+                    b.ToTable("Bookings");
+                });
+
             modelBuilder.Entity("CarService.Domain.Entities.Rent", b =>
                 {
                     b.Property<int>("Id")
@@ -75,6 +105,17 @@ namespace CarService.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Rents");
+                });
+
+            modelBuilder.Entity("CarService.Domain.Entities.Booking", b =>
+                {
+                    b.HasOne("CarService.Domain.Entities.Rent", "CarDetails")
+                        .WithMany()
+                        .HasForeignKey("CarDetailsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("CarDetails");
                 });
 #pragma warning restore 612, 618
         }

@@ -1,17 +1,8 @@
 ﻿using MassTransit;
-using Microsoft.Extensions.Configuration;
-using Saga.Core.Concrete.Brokers;
-using Saga.Core.Constants;
-using Saga.Core.MessageBrokers.Concrete;
-using Saga.Shared.Common;
 using Saga.Shared.Consumers.Abstract;
 using Saga.Shared.Consumers.Models.Booking;
-using Saga.Shared.Consumers.Models.Car;
-using Saga.Shared.Consumers.Models.Flight;
-using Saga.Shared.Consumers.Models.Notifications;
 using Saga.Shared.Consumers.Models.Sagas;
 using System;
-using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 
 namespace Booking.Saga.Consumer
@@ -75,9 +66,20 @@ namespace Booking.Saga.Consumer
         public Event<IRollbackFlightBookingEvent> RollbackFlightBookingEvent { get; set; }
         public Event<IRollbackCarBookingEvent> RollbackCarBookingEvent { get; set; }
 
-        private Task SaveStateChanges(string currentState)
+        private Task SaveStateChanges(string currentState, int bookingId, int flightId, int carId, Guid colId)
         {
             Console.WriteLine($"I'm saving State: {currentState}");
+
+            _dbContext.BookingStates.Add(new BookingState
+            {
+                BookingId = bookingId,
+                CarDetailsId = carId,
+                CorrelationId = colId,
+                CurrentState = currentState,
+                FlightDetailsId = flightId,
+                Created = DateTime.Now
+            });
+
             return _dbContext.SaveChangesAsync();
         }
 
@@ -94,13 +96,17 @@ namespace Booking.Saga.Consumer
                     .Then(ctx =>
                     {
                         ctx.Saga.BookingId = ctx.Message.BookingId;
+                        ctx.Saga.FlightDetailsId = ctx.Message.FlightDetailsId;
+                        ctx.Saga.CarDetailsId = ctx.Message.CarDetailsId;
+
+                        SaveStateChanges(ctx.Saga.CurrentState, ctx.Message.BookingId, ctx.Message.FlightDetailsId, ctx.Message.CarDetailsId, ctx.Message.CorrelationId);
                     })
                     .ThenAsync(ctx => Console.Out.WriteLineAsync($"Initialy: When BookingRequest Event. Hotel Booking Received {ctx.Message.BookingId}. I'm publishing CreateBookingEvent.Current State: {ctx.Saga.CurrentState}"))
                     .Publish(ctx => new CreatedBookingEvent(ctx.Saga))
                     .TransitionTo(State(nameof(BookingReceived)))
                     .Then(ctx => 
-                    { 
-                        SaveStateChanges(ctx.Saga.CurrentState); 
+                    {
+                        SaveStateChanges(ctx.Saga.CurrentState, ctx.Message.BookingId, ctx.Message.FlightDetailsId, ctx.Message.CarDetailsId, ctx.Message.CorrelationId);
                     })
             );
 
@@ -109,62 +115,74 @@ namespace Booking.Saga.Consumer
              .Then(ctx =>
              {
                  ctx.Saga.BookingId = ctx.Message.BookingId;
+                 ctx.Saga.FlightDetailsId = ctx.Message.FlightDetailsId;
+                 ctx.Saga.CarDetailsId = ctx.Message.CarDetailsId;
              })
              .ThenAsync(ctx => Console.Out.WriteLineAsync($"Booking Request Event: {ctx.Message.BookingId}."))
              .TransitionTo(State(nameof(BookingReceived)))
-             .ThenAsync(ctx => SaveStateChanges(ctx.Saga.CurrentState)),
+             .ThenAsync(ctx => SaveStateChanges(ctx.Saga.CurrentState, ctx.Message.BookingId, ctx.Message.FlightDetailsId, ctx.Message.CarDetailsId, ctx.Message.CorrelationId)),
          When(HotelBookingCreatedEvent)
              .Then(ctx =>
              {
                  ctx.Saga.BookingId = ctx.Message.BookingId;
+                 ctx.Saga.FlightDetailsId = ctx.Message.FlightDetailsId;
+                 ctx.Saga.CarDetailsId = ctx.Message.CarDetailsId;
              })
              .ThenAsync(ctx => Console.Out.WriteLineAsync($"Hotel Booking Created Event: {ctx.Message.BookingId}."))
              .TransitionTo(State(nameof(HotelBookingCreated)))
-             .ThenAsync(ctx => SaveStateChanges(ctx.Saga.CurrentState)),
+             .ThenAsync(ctx => SaveStateChanges(ctx.Saga.CurrentState, ctx.Message.BookingId, ctx.Message.FlightDetailsId, ctx.Message.CarDetailsId, ctx.Message.CorrelationId)),
          When(CreateFlightBookingEvent)
              .Then(ctx =>
              {
                  ctx.Saga.BookingId = ctx.Message.BookingId;
+                 ctx.Saga.FlightDetailsId = ctx.Message.FlightDetailsId;
+                 ctx.Saga.CarDetailsId = ctx.Message.CarDetailsId;
              })
              .ThenAsync(ctx => Console.Out.WriteLineAsync($"Create Flight Booking Event: {ctx.Message.BookingId}."))
              .TransitionTo(State(nameof(FlightBookingCreated)))
-             .ThenAsync(ctx => SaveStateChanges(ctx.Saga.CurrentState)),
+             .ThenAsync(ctx => SaveStateChanges(ctx.Saga.CurrentState, ctx.Message.BookingId, ctx.Message.FlightDetailsId, ctx.Message.CarDetailsId, ctx.Message.CorrelationId)),
          When(CreateCarBookingEvent)
              .Then(ctx =>
              {
                  ctx.Saga.BookingId = ctx.Message.BookingId;
+                 ctx.Saga.FlightDetailsId = ctx.Message.FlightDetailsId;
+                 ctx.Saga.CarDetailsId = ctx.Message.CarDetailsId;
              })
              .ThenAsync(ctx => Console.Out.WriteLineAsync($"Create Car Booking Event: {ctx.Message.BookingId}."))
              .TransitionTo(State(nameof(CarBookingCreated)))
-             .ThenAsync(ctx => SaveStateChanges(ctx.Saga.CurrentState)),
+             .ThenAsync(ctx => SaveStateChanges(ctx.Saga.CurrentState, ctx.Message.BookingId, ctx.Message.FlightDetailsId, ctx.Message.CarDetailsId, ctx.Message.CorrelationId)),
          When(HotelBookingCompletedEvent)
              .Then(ctx =>
              {
                  ctx.Saga.BookingId = ctx.Message.BookingId;
+                 ctx.Saga.FlightDetailsId = ctx.Message.FlightDetailsId;
+                 ctx.Saga.CarDetailsId = ctx.Message.CarDetailsId;
              })
              .ThenAsync(ctx => Console.Out.WriteLineAsync($"Hotel Booking Completed Event: {ctx.Message.BookingId}."))
              .TransitionTo(State(nameof(HotelBookingCompleted)))
-             .ThenAsync(ctx => SaveStateChanges(ctx.Saga.CurrentState)),
+             .ThenAsync(ctx => SaveStateChanges(ctx.Saga.CurrentState, ctx.Message.BookingId, ctx.Message.FlightDetailsId, ctx.Message.CarDetailsId, ctx.Message.CorrelationId)),
          When(CreateNotificationEvent)
              .Then(ctx =>
              {
                  ctx.Saga.BookingId = ctx.Message.BookingId;
+                 ctx.Saga.FlightDetailsId = ctx.Message.FlightDetailsId;
+                 ctx.Saga.CarDetailsId = ctx.Message.CarDetailsId;
              })
              .ThenAsync(ctx => Console.Out.WriteLineAsync($"Create Notification Event: {ctx.Message.BookingId}."))
              .TransitionTo(State(nameof(NotificationCreated)))
-             .ThenAsync(ctx => SaveStateChanges(ctx.Saga.CurrentState)),
+             .ThenAsync(ctx => SaveStateChanges(ctx.Saga.CurrentState, ctx.Message.BookingId, ctx.Message.FlightDetailsId, ctx.Message.CarDetailsId, ctx.Message.CorrelationId)),
          When(HotelBookingFailedEvent)
              .Then(ctx =>
              {
                  ctx.Saga.BookingId = ctx.Message.BookingId;
+                 ctx.Saga.FlightDetailsId = ctx.Message.FlightDetailsId;
+                 ctx.Saga.CarDetailsId = ctx.Message.CarDetailsId;
              })
              .ThenAsync(ctx => Console.Out.WriteLineAsync($"Hotel Booking Failed Event: {ctx.Message.BookingId}."))
              .TransitionTo(State(nameof(Failed)))
-             .ThenAsync(ctx => SaveStateChanges(ctx.Saga.CurrentState))
+             .ThenAsync(ctx => SaveStateChanges(ctx.Saga.CurrentState, ctx.Message.BookingId, ctx.Message.FlightDetailsId, ctx.Message.CarDetailsId, ctx.Message.CorrelationId))
             
             );
-
-            //Rollback oba i car i 
 
             SetCompletedWhenFinalized();
         }

@@ -30,26 +30,14 @@ namespace HotelService.Infrastructure.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
 
-                    b.Property<int>("AdultsNumber")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("CheckIn")
-                        .HasColumnType("datetime2");
-
-                    b.Property<DateTime>("CheckOut")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("ChildrenNumber")
-                        .HasColumnType("int");
-
                     b.Property<DateTime>("Created")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("CreatedBy")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("HotelName")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("HotelBokingDetailsId")
+                        .HasColumnType("int");
 
                     b.Property<DateTime?>("LastModified")
                         .HasColumnType("datetime2");
@@ -57,16 +45,9 @@ namespace HotelService.Infrastructure.Migrations
                     b.Property<string>("LastModifiedBy")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Place")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("RoomNumber")
-                        .HasColumnType("int");
-
-                    b.Property<int>("Status")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
+
+                    b.HasIndex("HotelBokingDetailsId");
 
                     b.ToTable("Bookings");
                 });
@@ -121,6 +102,17 @@ namespace HotelService.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Hotels");
+                });
+
+            modelBuilder.Entity("HotelService.Domain.Entities.Booking", b =>
+                {
+                    b.HasOne("HotelService.Domain.Entities.Hotel", "HotelBokingDetails")
+                        .WithMany()
+                        .HasForeignKey("HotelBokingDetailsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("HotelBokingDetails");
                 });
 #pragma warning restore 612, 618
         }

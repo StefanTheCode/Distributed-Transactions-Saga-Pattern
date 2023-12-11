@@ -60,7 +60,7 @@ namespace FlightService.Consumer
 
                     bus.StartAsync();
 
-                    Console.WriteLine("Flight Booking Consumer Application started...");
+                    Console.WriteLine("Flight Booking Consumer Application started...\n\n");
                     Console.ReadLine();
                 });
         }

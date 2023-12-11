@@ -72,7 +72,7 @@ namespace HotelService.Consumer
 
                     bus.StartAsync();
 
-                    Console.WriteLine("Hotel Booking Consumer Application started...");
+                    Console.WriteLine("Hotel Booking Service Application started...\n\n");
                     Console.ReadLine();
                 });
         }

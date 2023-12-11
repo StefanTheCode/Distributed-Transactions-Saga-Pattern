@@ -22,6 +22,36 @@ namespace FlightService.Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
+            modelBuilder.Entity("FlightService.Domain.Entities.Booking", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("CreatedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("FlightDetailsId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime?>("LastModified")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("LastModifiedBy")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("FlightDetailsId");
+
+                    b.ToTable("Bookings");
+                });
+
             modelBuilder.Entity("FlightService.Domain.Entities.Flight", b =>
                 {
                     b.Property<int>("Id")
@@ -81,6 +111,17 @@ namespace FlightService.Infrastructure.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Flights");
+                });
+
+            modelBuilder.Entity("FlightService.Domain.Entities.Booking", b =>
+                {
+                    b.HasOne("FlightService.Domain.Entities.Flight", "FlightDetails")
+                        .WithMany()
+                        .HasForeignKey("FlightDetailsId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("FlightDetails");
                 });
 #pragma warning restore 612, 618
         }

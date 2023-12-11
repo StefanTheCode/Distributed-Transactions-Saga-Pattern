@@ -1,5 +1,6 @@
 ﻿using HotelService.Infrastructure.Persistence;
 using MassTransit;
+using Microsoft.EntityFrameworkCore;
 using Saga.Shared.Consumers.Abstract;
 using System;
 using System.Threading.Tasks;
@@ -17,34 +18,24 @@ namespace FlightService.Consumer.Consumer
 
         public async Task Consume(ConsumeContext<IRollbackHotelBookingEvent> context)
         {
-            //Call DB - Create Flight Booking
-            //Check dates - if not available publish HotelBookingFailed
-            //Publish Created/Create Car Booking
+            var existHotelBooking = await _dbContext.Bookings.FirstOrDefaultAsync(x => x.Id == context.Message.BookingId);
+
+            if (existHotelBooking is not null)
+            {
+                _dbContext.Bookings.Remove(existHotelBooking);
+                await _dbContext.SaveChangesAsync();
+            }
 
             Console.WriteLine($"{DateTime.Now.ToString("HH:mm:ss.ffffff")}: Rollback Hotel Booking for Booking ID - " + context.Message.BookingId);
 
-            //await context.Publish<IRollbackCarBookingEvent>(new
-            //{
-            //    CreatedDate = DateTime.Now,
-            //    context.Message.BookingId
-            //});
-
-            //try
-            //{
-            //    throw new Exception("Greska");
-            //}
-            //catch(Exception e)
-            //{
-            //    //Console.WriteLine("Create Flight Booking went wrong with ID " + context.Message.BookingId);
-
-            //    await context.Publish<IHotelBookingFailedEventModel>(new
-            //    {
-            //        CreatedDate = DateTime.Now,
-            //        BookingId = context.Message.BookingId+1,
-            //        FlightId = context.Message.FlightId
-            //    });
-            //}
-
+            await context.Publish<ICreateNotificationEvent>(new
+            {
+                CreatedDate = DateTime.Now,
+                BookingId = context.Message.BookingId,
+                CorrelationId = context.Message.CorrelationId,
+                IsSuccessful = true,
+                Message = $"Time: {DateTime.Now.ToString("HH:mm:ss.ffffff")}\nBooking Id={context.Message.BookingId}\nHotel booking successfully rollbacked."
+            });
         }
     }
 }
