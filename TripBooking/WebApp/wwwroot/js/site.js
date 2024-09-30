@@ -6,7 +6,10 @@
     Rooms: 1,
     Adults: 1,
     Children: 0,
-    PassengersCount: 0
+    PassengersCount: 0,
+    FlightId: 0,
+    HolteId: 0,
+    CarId: 0
 }
 
 Site.getHotels = function() {
@@ -20,6 +23,8 @@ Site.getHotels = function() {
         success: function(result) {
 
             if (result != undefined) {
+
+                Site.HotelId = result.id;
 
                 $("#foundHotelPhoto").attr("src", result.photoUrl);
                 $("#foundHotelName").text(result.name);
@@ -47,9 +52,11 @@ Site.getCar = function() {
 
             if (result != undefined) {
 
+                Site.CarId = result.id;
+
                 $("#foundCarPhoto").attr("src", result.carPhoto);
                 $("#foundCarName").text(result.carName);
-                $("#foundCarPrice").text("$" + result.price);
+                $("#foundCarPrice").text("$" + result.carDescription);
                 $("#foundCarAgency").text(result.agency);
                 $("#foundCarPickUpLocation").text(result.pickUpLocation);
                 $("#foundCarDeparturePickUp").text(result.departurePickUpTime);
@@ -76,6 +83,9 @@ Site.getFlights = function() {
             console.log(result);
 
             if (result != undefined) {
+
+                Site.FlightId = result.id;
+
                 $("#foundFlightFrom").text(result.from);
                 $("#foundFlightDestination").text(result.destination);
 
@@ -96,6 +106,11 @@ Site.getFlights = function() {
 
         }
     });
+}
+
+Site.book = function() {
+
+    location.href = "/Home/BookingResult?flightId=" + Site.FlightId + "&hotelId=" + Site.HotelId + "&carId=" + Site.CarId;
 }
 
 Site.checkAvailability = function(e) {

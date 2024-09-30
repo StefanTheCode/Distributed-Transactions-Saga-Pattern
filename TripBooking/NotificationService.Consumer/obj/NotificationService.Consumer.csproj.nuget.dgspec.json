@@ -4,14 +4,14 @@
     "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Consumer\\NotificationService.Consumer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Application\\HotelService.Application.csproj": {
+    "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Application\\NotificationService.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Application\\HotelService.Application.csproj",
-        "projectName": "HotelService.Application",
-        "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Application\\HotelService.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Application\\NotificationService.Application.csproj",
+        "projectName": "NotificationService.Application",
+        "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Application\\NotificationService.Application.csproj",
         "packagesPath": "C:\\Users\\Stefan Djokic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Application\\obj\\",
+        "outputPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Stefan Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,17 +22,16 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://essity-projects.pkgs.visualstudio.com/_packaging/EssityPackages/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\HotelService.Domain.csproj": {
-                "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\HotelService.Domain.csproj"
-              },
-              "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Core\\Saga.Core.csproj": {
-                "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Core\\Saga.Core.csproj"
+              "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Domain\\NotificationService.Domain.csproj": {
+                "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Domain\\NotificationService.Domain.csproj"
               }
             }
           }
@@ -47,10 +46,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "MassTransit": {
-              "target": "Package",
-              "version": "[8.0.5, )"
-            },
             "MediatR": {
               "target": "Package",
               "version": "[10.0.1, )"
@@ -80,18 +75,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\HotelService.Domain.csproj": {
+    "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Consumer\\NotificationService.Consumer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\HotelService.Domain.csproj",
-        "projectName": "HotelService.Domain",
-        "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\HotelService.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Consumer\\NotificationService.Consumer.csproj",
+        "projectName": "NotificationService.Consumer",
+        "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Consumer\\NotificationService.Consumer.csproj",
         "packagesPath": "C:\\Users\\Stefan Djokic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Consumer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Stefan Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -102,12 +97,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://essity-projects.pkgs.visualstudio.com/_packaging/EssityPackages/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj"
+              },
               "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\Saga.Shared.csproj": {
                 "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\Saga.Shared.csproj"
               }
@@ -135,22 +135,25 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Infrastructure\\HotelService.Infrastructure.csproj": {
+    "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Domain\\NotificationService.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Infrastructure\\HotelService.Infrastructure.csproj",
-        "projectName": "HotelService.Infrastructure",
-        "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Infrastructure\\HotelService.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Domain\\NotificationService.Domain.csproj",
+        "projectName": "NotificationService.Domain",
+        "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Domain\\NotificationService.Domain.csproj",
         "packagesPath": "C:\\Users\\Stefan Djokic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Stefan Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -161,17 +164,73 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://essity-projects.pkgs.visualstudio.com/_packaging/EssityPackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj",
+        "projectName": "NotificationService.Infrastructure",
+        "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Infrastructure\\NotificationService.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Stefan Djokic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Stefan Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://essity-projects.pkgs.visualstudio.com/_packaging/EssityPackages/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Application\\HotelService.Application.csproj": {
-                "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Application\\HotelService.Application.csproj"
-              },
-              "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\HotelService.Domain.csproj": {
-                "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Domain\\HotelService.Domain.csproj"
+              "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Application\\NotificationService.Application.csproj": {
+                "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Application\\NotificationService.Application.csproj"
               }
             }
           }
@@ -235,100 +294,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Consumer\\NotificationService.Consumer.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Consumer\\NotificationService.Consumer.csproj",
-        "projectName": "NotificationService.Consumer",
-        "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Consumer\\NotificationService.Consumer.csproj",
-        "packagesPath": "C:\\Users\\Stefan Djokic\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\NotificationService.Consumer\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Stefan Djokic\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {
-              "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Infrastructure\\HotelService.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Infrastructure\\HotelService.Infrastructure.csproj"
-              },
-              "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\Saga.Shared.csproj": {
-                "projectPath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\Saga.Shared\\Saga.Shared.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "dependencies": {
-            "MassTransit": {
-              "target": "Package",
-              "version": "[8.0.5, )"
-            },
-            "Microsoft.Extensions.Hosting": {
-              "target": "Package",
-              "version": "[6.0.1, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -350,7 +316,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://essity-projects.pkgs.visualstudio.com/_packaging/EssityPackages/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -405,7 +373,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -427,7 +395,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://essity-projects.pkgs.visualstudio.com/_packaging/EssityPackages/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -443,9 +413,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "default"
         }
       },
       "frameworks": {
@@ -472,26 +439,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304\\RuntimeIdentifierGraph.json"
         }
       }
     }

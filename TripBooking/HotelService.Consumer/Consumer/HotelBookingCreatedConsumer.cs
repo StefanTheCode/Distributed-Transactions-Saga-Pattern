@@ -20,7 +20,7 @@ namespace HotelService.Consumer.Consumer
 
         public async Task Consume(ConsumeContext<ICreatedBookingEvent> context)
         {
-            if(context.Message is not null && context.Message.BookingId is not 0)
+            if (context.Message is not null && context.Message.BookingId is not 0)
             {
                 Console.WriteLine("____________________________________________________");
                 Console.WriteLine($"Time: {DateTime.Now.ToString("HH:mm:ss.ffffff")}");

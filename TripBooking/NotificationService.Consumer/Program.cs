@@ -1,61 +1,80 @@
-﻿using HotelService.Infrastructure.Persistence;
 using MassTransit;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
+using NotificationService.Consumer;
+using NotificationService.Infrastructure.Persistence;
 using Saga.Core.Concrete.Brokers;
 using Saga.Core.MessageBrokers.Concrete;
-using Saga.Shared.Consumers.Models.Booking;
 using Saga.Shared.Consumers.Models.Notifications;
-using System;
 
-namespace NotificationService.Consumer
+var builder = WebApplication.CreateBuilder(args);
+
+// Add builder.Services to the container.
+builder.Services.AddCors(x => x.AddPolicy("AllowAll", p =>
+{ p.SetIsOriginAllowed(_ => true).AllowAnyHeader().AllowAnyMethod().AllowCredentials(); }));
+
+builder.Services.AddOptions();
+
+var massTransitSettings = builder.Configuration.GetSection("MassTransitSettings")
+    .Get<MassTransitSettings>();
+builder.Services.AddSingleton(massTransitSettings);
+
+string connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddDbContext<NotificationDbContext>(options =>
+        options.UseSqlServer(connectionString));
+
+builder.Services.AddScoped<CreateNotificationConsumer>();
+
+builder.Services.AddSignalR();
+
+// Configure MassTransit
+builder.Services.AddMassTransit(x =>
 {
-    class Program
+    x.AddConsumer<CreateNotificationConsumer>();
+
+    x.UsingRabbitMq((context, cfg) =>
     {
-        static void Main(string[] args)
+        cfg.ReceiveEndpoint(nameof(CreateNotificationEvent), e =>
         {
-            CreateHostBuilder(args).Build().Run();
-        }
+            e.ConfigureConsumer<CreateNotificationConsumer>(context);
+        });
+    });
+});
 
-        public static IHostBuilder CreateHostBuilder(string[] args)
-        {
-            return Host.CreateDefaultBuilder(args).ConfigureAppConfiguration((hostingContext, config) =>
-            {
-                config.AddJsonFile("appsettings.json", true, true);
-                config.AddEnvironmentVariables();
 
-                if (args != null)
-                    config.AddCommandLine(args);
-            })
-                .ConfigureServices((hostContext, services) =>
-                {
-                    services.AddOptions();
+//var serviceProvider = builder.Services.BuildServiceProvider();
 
-                    var massTransitSettings = hostContext.Configuration.GetSection("MassTransitSettings")
-                        .Get<MassTransitSettings>();
-                    services.AddSingleton(massTransitSettings);
+//var bus = BusConfiguration.Instance
+//    .ConfigureBus(massTransitSettings, (cfg) =>
+//    {
+//        cfg.ReceiveEndpoint(nameof(CreateNotificationEvent), e =>
+//        {
+//            // Resolve the consumer using the service provider
+//            e.Consumer(() => serviceProvider.GetRequiredService<CreateNotificationConsumer>());
+//        });
+//    });
 
-                    string connectionString = hostContext.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddControllers();
 
-                    services.AddDbContext<HotelDbContext>(options =>
-                            options.UseSqlServer(connectionString));
+//await bus.StartAsync();
 
-                    var bus = BusConfiguration.Instance
-                            .ConfigureBus(massTransitSettings, (cfg) =>
-                            {
-                                cfg.ReceiveEndpoint(nameof(CreateNotificationEvent), e =>
-                                {
-                                    e.Consumer(() => new CreateNotificationConsumer());
-                                });
-                            });
+Console.WriteLine("Notification Consumer Application started...");
 
-                    bus.StartAsync();
+var app = builder.Build();
 
-                    Console.WriteLine("Notification Consumer Application started...");
-                    Console.ReadLine();
-                });
-        }
-    }
-}
+app.UseHttpsRedirection();
+
+app.UseCors("AllowAll");
+
+app.UseRouting();
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+    endpoints.MapHub<NotificationHub>("/notifications");
+});
+
+app.Run();
+

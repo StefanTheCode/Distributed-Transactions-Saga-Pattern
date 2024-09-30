@@ -20,13 +20,13 @@ namespace CarService.Consumer.Consumer
         {
             Console.WriteLine($"{DateTime.Now.ToString("HH:mm:ss.ffffff")}: Rollback Car Booking for Booking ID - " + context.Message.BookingId);
 
-            var existRent = await _dbContext.Rents.FirstOrDefaultAsync(x => x.Id == context.Message.CarDetailsId);
+            //var existRent = await _dbContext.Rents.FirstOrDefaultAsync(x => x.Id == context.Message.CarDetailsId);
 
-            if (existRent is not null)
-            {
-                _dbContext.Rents.Remove(existRent);
-                await _dbContext.SaveChangesAsync();
-            }
+            //if (existRent is not null)
+            //{
+            //    _dbContext.Rents.Remove(existRent);
+            //    await _dbContext.SaveChangesAsync();
+            //}
 
             await context.Publish<ICreateNotificationEvent>(new
             {

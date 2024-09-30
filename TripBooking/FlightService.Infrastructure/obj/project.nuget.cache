@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ygluiMiOsohzeILw9zNZcm3gqkAA7gDK3iQtg80kVa9m97AzuK1MxhdgN/w1ZGCfb1lII3wqdHTCIMpvtiRjdA==",
+  "dgSpecHash": "rxUOqD8gSTjuAzBt4+QZ5x0AHcwpme2YE+gZkOMP7AfQr6VTJU2Q3yyOI8cLoZVJR6Z4Qz+INb6rAlW5R0vx0Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService.Infrastructure\\FlightService.Infrastructure.csproj",
   "expectedPackageFiles": [

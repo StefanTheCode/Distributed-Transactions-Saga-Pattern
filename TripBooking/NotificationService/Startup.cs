@@ -34,6 +34,8 @@ namespace NotificationService
 
             services.AddScoped(typeof(INotificationDbContext), typeof(NotificationDbContext));
 
+            services.AddSignalR();
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {

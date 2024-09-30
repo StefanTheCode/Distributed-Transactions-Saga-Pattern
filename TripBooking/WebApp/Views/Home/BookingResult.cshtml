@@ -1,0 +1,86 @@
+﻿<div class="row">
+    <div class="col-md-12">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Test cases</h1>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 100px"> 
+            <div class="col-md-6">
+                <button class="btn btn-lg btn-success">Everything is Ok</button>
+             
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4">
+                        <button class="btn btn-lg btn-danger">Hotel is problem</button>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn btn-lg btn-danger">Flight is problem</button>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn btn-lg btn-danger">Car is problem</button>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="col-md-12" style="margin-top: 100px">
+                <hr />
+                        <h3>Logs:</h3>
+                        <div class="col-md-12" id="logs">
+
+                        </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/6.0.1/signalr.js"></script>
+
+<script>
+    $(function() {
+        const connection = new signalR.HubConnectionBuilder()
+            .withUrl("https://localhost:7195/notifications", {
+                skipNegotiation: true,
+                transport: signalR.HttpTransportType.WebSockets
+            })
+            .configureLogging(signalR.LogLevel.Information)
+            .build();
+
+        async function start() {
+            try {
+                await connection.start();
+                console.log("SignalR Connected.");
+                // await connection.invoke("SendNotification", "Initial Notification");
+            } catch (err) {
+                console.log(err);
+                setTimeout(start, 5000);
+            }
+        };
+
+        connection.on("ReceiveMessage", (message) => {
+
+            let messageParts = message.split('|');
+
+            var logsDiv = document.getElementById("logs");
+
+            for (var i = 0; i < messageParts.length; i++) { 
+
+                var messagePart = messageParts[i];
+
+                const h6 = document.createElement("h6");
+                h6.textContent = `${messagePart}`;
+
+                logsDiv.appendChild(h6);
+            }
+
+        });
+
+        connection.onclose(async () => {
+            await start();
+        });
+
+        start();
+    });
+</script>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vMlZaymXmM0WqvEGw4t4io6CHEWPAdaYkyIp7qDvSGBt66PS4Q5oL55u4nmSqNEmoPRsIBVPVERrnthFuErQ4g==",
+  "dgSpecHash": "RbOsi6g8EFmuJV2panOrNw8sfprfDSQkv6rp3WbSSJ2NBBCqOKaf6cxxicO1DEmqgUVC32U6pWuBSgJX58iIEQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\FlightService\\FlightService.csproj",
   "expectedPackageFiles": [
@@ -61,11 +61,7 @@
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\system.security.permissions\\4.7.0\\system.security.permissions.4.7.0.nupkg.sha512",
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
-    "C:\\Users\\Stefan Djokic\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
-    "C:\\Users\\Stefan Djokic\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Stefan Djokic\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Stefan Djokic\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Stefan Djokic\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+    "C:\\Users\\Stefan Djokic\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

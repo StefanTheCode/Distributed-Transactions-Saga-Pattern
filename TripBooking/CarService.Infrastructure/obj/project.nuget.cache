@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gsKL4mpeVlw8qfrtGZt9yfLBqWUVwSsQYHs1klEqkMOuXdVUbgdKmznTpOfT8s7wSsyF7QdzV01qhN3Hk0cEXg==",
+  "dgSpecHash": "z+aU20xet7nwriKSWgaagBtK/rciMixLegKSdcpuQo7gilnpk7fG0VJBaFHw8Xe7g1vdf4JyXT1K5q+ScBC9Zg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\CarService.Infrastructure\\CarService.Infrastructure.csproj",
   "expectedPackageFiles": [

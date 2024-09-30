@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8FyMvM3Oi+YLA5le4u5/qxo/04sxOLinM23svfaEIEIsTbkpOw+UsqwhObw5HAnEpSS04DOvDYP605oNY1rasA==",
+  "dgSpecHash": "NxqtThNVrckDx2YsX54fOlRD0fD/8cO54t5npMTxXimysYrVRgZzeFWrdvLVdMzWhL+cVLkwC+5t7WNHYbymGQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Stefan Djokic\\Desktop\\Personal\\Diplomski\\Distributed-Transactions-Saga-Pattern\\TripBooking\\HotelService.Consumer\\HotelService.Consumer.csproj",
   "expectedPackageFiles": [
@@ -83,11 +83,7 @@
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\system.text.json\\6.0.2\\system.text.json.6.0.2.nupkg.sha512",
     "C:\\Users\\Stefan Djokic\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
-    "C:\\Users\\Stefan Djokic\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
-    "C:\\Users\\Stefan Djokic\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Stefan Djokic\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Stefan Djokic\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
-    "C:\\Users\\Stefan Djokic\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+    "C:\\Users\\Stefan Djokic\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

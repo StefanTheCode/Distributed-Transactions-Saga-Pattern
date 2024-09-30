@@ -18,6 +18,11 @@ namespace WebApp.Controllers
             return View();
         }
 
+        public IActionResult BookingResult(string flightId, string hotelId, string carId)
+        {
+            return View();
+        }
+
         public IActionResult Privacy()
         {
             return View();

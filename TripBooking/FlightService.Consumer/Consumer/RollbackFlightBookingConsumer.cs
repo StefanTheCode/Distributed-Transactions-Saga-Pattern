@@ -28,13 +28,13 @@ namespace FlightService.Consumer.Consumer
         {
             Console.WriteLine($"{DateTime.Now.ToString("HH:mm:ss.ffffff")}: Rollback Flight Booking for Booking ID - " + context.Message.BookingId);
 
-            var existFlight = await _dbContext.Flights.FirstOrDefaultAsync(x => x.Id == context.Message.FlightDetailsId);
+            //var existFlight = await _dbContext.Flights.FirstOrDefaultAsync(x => x.Id == context.Message.FlightDetailsId);
 
-            if (existFlight is not null)
-            {
-                _dbContext.Flights.Remove(existFlight);
-                await _dbContext.SaveChangesAsync();
-            }
+            //if (existFlight is not null)
+            //{
+            //    _dbContext.Flights.Remove(existFlight);
+            //    await _dbContext.SaveChangesAsync();
+            //}
 
             await context.Publish<ICreateNotificationEvent>(new
             {
